@@ -1,0 +1,7 @@
+1.41
+* Fixed ActionBar color
+* Circular button for add a new note is available also for the old android versions
+
+1.40
+* The notes can now be shared individually
+* Bug fix when very large notes were stored
