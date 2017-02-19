@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_drawer"
+        android:summary="@string/pref_drawer_summ"
+        android:title="@string/pref_drawer" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_textSize_default"
+        android:dialogTitle="@string/pref_textSize"
+        android:entries="@array/pref_textSize_entries"
+        android:entryValues="@array/pref_textSize_values"
+        android:key="pref_textSize"
+        android:title="@string/pref_textSize" />
+
+</PreferenceScreen>

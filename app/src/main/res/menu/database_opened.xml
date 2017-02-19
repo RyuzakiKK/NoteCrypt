@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        android:menuCategory="system"
+        android:orderInCategory="70"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_filter"/>
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort_white_24dp"
+        android:menuCategory="system"
+        android:orderInCategory="80"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_sort"/>
+    <item
+        android:id="@+id/action_changePassword"
+        android:menuCategory="system"
+        android:orderInCategory="90"
+        app:showAsAction="never"
+        android:title="@string/action_changePassword"/>
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="75"
+        app:showAsAction="always|collapseActionView"
+        android:title="@string/action_search"/>
+
+</menu>

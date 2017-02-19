@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Change Password</string>
+    <string name="action_newNote">Add New Note</string>
+    <string name="action_about">About</string>
+    <string name="hint_field_new_password">New Password</string>
+    <string name="hint_field_conf_password">Confirm Password</string>
+    <string name="title_changeMasterPass">Enter new Master Password</string>
+    <string name="title_databaseLocation">Enter database filename:</string>
+    <string name="desc_fileManager">Open File Manager</string>
+    <string name="butt_open">Open</string>
+    <string name="butt_create">Create</string>
+    <string name="hint_field_password">Password</string>
+    <string name="title_note">Title:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="note_note">Note:</string>
+    <string name="hint_field_title">Title</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="toast_success_newNote">Successfully created</string>
+    <string name="toast_fatalError">FATAL ERROR!</string>
+    <string name="toast_IOError">I/O Error!</string>
+    <string name="title_password">Insert Password</string>
+    <string name="toast_emptyPassword">Empty Password is not allowed</string>
+    <string name="toast_wrongPassword">Wrong Password or corrupted database</string>
+    <string name="toast_wrongPath">Error reading the database.\nCheck the correctness of the path</string>
+    <string name="toast_errorCreatingDB">Error creating db.\nCheck the correctness of the path</string>
+    <string name="toast_wrongNewPassword">Passwords do not match</string>
+    <string name="toast_fieldsNotFilled">Fields do not filled correctly</string>
+    <string name="dialog_backNoSave">Your edit will not be saved.\nAre you sure to exit?</string>
+    <string name="toast_success_newDB">Database successfully created</string>
+    <string name="toast_success_changePsw">Password successfully changed</string>
+    <string name="action_filter">Filter by Tag</string>
+    <string name="dialog_deleteNote">Are you sure you want to delete this note?</string>
+    <string name="title_deleteNote">Delete Note</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="action_sort">Sort List</string>
+    <string name="toast_sort_alphabet">Alphabetical sort</string>
+    <string name="toast_sort_creation">Creation sort</string>
+    <string name="toast_success_deleteNote">Successfully deleted</string>
+    <string name="dialog_backClose">Really close the database?</string>
+    <string name="title_backClose">Close</string>
+    <string name="toast_version">Notecrypt version</string>
+    <string name="toast_createdBy">\nCreated by Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Error finding version!</string>
+    <string name="no_notes">No notes here.\nPress the + button to add a note.</string>
+    <string name="no_textNote">Empty Note Text.</string>
+    <string name="toast_errorInvalidKey">Error! Probably the inserted Password has some not allowed characters</string>
+    <string name="sure">Sure</string>
+    <string name="sure_rate">Rate now</string>
+    <string name="later">Maybe later</string>
+    <string name="rate">Rate</string>
+    <string name="rate_message">If you enjoy Note Crypt, I would greatly appreciate your app rating in the store. Thank you very much.</string>
+    <string name="upgrade_message">Please consider donating me a coffee buying NoteCrypt Donate/Pro version.\nWith it you will also receive additional features.</string>
+    <string name="action_donate">Donate</string>
+    <string name="pref_drawer">Animation filter on start</string>
+    <string name="pref_drawer_summ">Display the animation of the filter drawer on the right</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_recentDB">Database in default folder and recent (click to open):</string>
+    <string name="deleteRecent_message">Delete the database?\nThis action is irreversible.</string>
+    <string name="pref_textSize">Change size of font for notes</string>
+    <string-array name="pref_textSize_entries">
+        <item >Very small</item>
+        <item >Small</item>
+        <item >Normal</item>
+        <item >Large</item>
+        <item >Very Large</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Search</string>
+    <string name="action_starred">Important</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_overwrite">Overwrite</string>
+    <string name="overwrite_message">A file with this name already exist, if you continue it will be overwritten.</string>
+    <string name="warning">Warning</string>
+    <string name="localeWarning">It\'s high recommended to use as password only the Latin alphabet (A-Z), numbers and symbols.</string>
+    <string name="action_share">Share</string>
+    <string name="explain_external_permission">Notecrypt needs permission to read and write to the phone memory for store your notes. If you permanently denied it you can grant this permission opening your System Settings->Apps->NoteCrypt</string>
+</resources>

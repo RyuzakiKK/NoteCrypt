@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Cambia Password</string>
+    <string name="action_newNote">Aggiungi nuova nota</string>
+    <string name="action_about">About</string>
+    <string name="hint_field_new_password">Nuova Password</string>
+    <string name="hint_field_conf_password">Conferma Password</string>
+    <string name="title_changeMasterPass">Inserire nuova Master Password</string>
+    <string name="title_databaseLocation">Inserire il nome del database:</string>
+    <string name="desc_fileManager">Apri File Manager</string>
+    <string name="butt_open">Apri</string>
+    <string name="butt_create">Crea</string>
+    <string name="hint_field_password">Password</string>
+    <string name="title_note">Titolo:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="note_note">Nota:</string>
+    <string name="hint_field_title">Titolo</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Salva</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_delete">Elimina</string>
+    <string name="toast_success_newNote">Creato con successo</string>
+    <string name="toast_fatalError">ERRORE CRITICO!</string>
+    <string name="toast_IOError">Errore di I/O!</string>
+    <string name="title_password">Inserire Password</string>
+    <string name="toast_emptyPassword">Non è consentita una Password vuota</string>
+    <string name="toast_wrongPassword">Password errata o database corrotto</string>
+    <string name="toast_wrongPath">Errore durante la lettura del database.\nControllare la correttezza del nome</string>
+    <string name="toast_errorCreatingDB">Errore durante la creazione del database.\nControllare la correttezza dell\'indirizzo</string>
+    <string name="toast_wrongNewPassword">La Password non coincide</string>
+    <string name="toast_fieldsNotFilled">Campi completati in modo non corretto</string>
+    <string name="dialog_backNoSave">Le modifiche effettuate verranno perse.\nSicuro di voler uscire?</string>
+    <string name="toast_success_newDB">Database creato con successo</string>
+    <string name="toast_success_changePsw">La Password è stata cambiata</string>
+    <string name="action_filter">Filtra con i Tag</string>
+    <string name="dialog_deleteNote">Sei sicuro di voler cancellare questa nota?</string>
+    <string name="title_deleteNote">Elimina nota</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="action_sort">Ordina la lista</string>
+    <string name="toast_sort_alphabet">Ordine alfabetico</string>
+    <string name="toast_sort_creation">Ordine di creazione</string>
+    <string name="toast_success_deleteNote">Eliminata con successo</string>
+    <string name="dialog_backClose">Chiudere il database?</string>
+    <string name="title_backClose">Chiudi</string>
+    <string name="toast_version">Notecrypt versione</string>
+    <string name="toast_createdBy">\nCreata da Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Errore nel trovare la versione!</string>
+    <string name="no_notes">Non ci sono note.\nPremi il pulsante + per aggiungerne.</string>
+    <string name="no_textNote">Il testo della nota è vuoto.</string>
+    <string name="toast_errorInvalidKey">Errore! Probabilmente la Password inserita ha dei caratteri non consentiti</string>
+    <string name="sure">Certo</string>
+    <string name="sure_rate">Valuta ora</string>
+    <string name="later">Forse dopo</string>
+    <string name="rate">Valuta</string>
+    <string name="rate_message">Se ti piace Note Crypt, apprezzerei molto una tua valutazione sullo store. Grazie mille.</string>
+    <string name="upgrade_message">Dona un caffè comprando NoteCrypt Donate/Pro.\nInoltre riceverai funzioni aggiuntive.</string>
+    <string name="action_donate">Dona</string>
+    <string name="pref_drawer">Animazione dei filtri all\'avvio</string>
+    <string name="pref_drawer_summ">Visualizza l\'animazione dei filtri sulla destra</string>
+    <string name="action_settings">Preferenze</string>
+    <string name="title_recentDB">Database recenti e nella cartella di default (clicca per aprire):</string>
+    <string name="deleteRecent_message">Vuoi eliminare il database?\nLa cancellazione è irreversibile.</string>
+    <string name="pref_textSize">Cambia dimensione del testo delle note</string>
+    <string-array name="pref_textSize_entries">
+        <item >Molto piccolo</item>
+        <item >Piccolo</item>
+        <item >Normale</item>
+        <item >Grande</item>
+        <item >Molto grande</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Cerca</string>
+    <string name="action_starred">Importante</string>
+    <string name="action_remove">Rimuovi</string>
+    <string name="action_overwrite">Sovrascrivi</string>
+    <string name="overwrite_message">Un file con questo nome già esiste, se continui verrà sovrascritto.</string>
+    <string name="warning">warning</string>
+    <string name="localeWarning">È altamente consigliato di usare come password solo l\'alfabeto latino (A-Z), numeri e simboli.</string>
+    <string name="action_share">Condidivi</string>
+    <string name="explain_external_permission">Notecrypt ha bisogno del permesso per leggere e scrivere sulla memoria del telefono per poter salvare le note. Se hai permanentemente negato questo permesso, puoi concederlo andando su Ipostazioni di Android->Applicazioni->Notecrypt</string>
+
+</resources>

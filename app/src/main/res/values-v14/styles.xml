@@ -1,0 +1,27 @@
+<resources>
+
+    <color name="fab_color">#03a9f4</color>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/light_blue</item>
+        <item name="colorPrimary">@color/light_blue</item>
+
+        <item name="android:actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+        <item name="android:selectableItemBackground">@drawable/selector</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+    <style name="OverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+    </style>
+
+    <style name="MyTheme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
