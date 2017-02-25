@@ -1,3 +1,7 @@
+1.42
+* Fixed issue #1 that prevented old Android versions to create a new DB
+* Added the Japanese translation (thanks to naofum)
+
 1.41
 * Fixed ActionBar color
 * Circular button for add a new note is available also for the old android versions
