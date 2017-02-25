@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">パスワードを変更</string>
+    <string name="action_newNote">新しいメモを追加</string>
+    <string name="action_about">アプリについて</string>
+    <string name="hint_field_new_password">新しいパスワード</string>
+    <string name="hint_field_conf_password">パスワードの確認</string>
+    <string name="title_changeMasterPass">新しいマスターパスワードを入力</string>
+    <string name="title_databaseLocation">データベース ファイル名を入力:</string>
+    <string name="desc_fileManager">ファイルマネージャーを開く</string>
+    <string name="butt_open">開く</string>
+    <string name="butt_create">作成</string>
+    <string name="hint_field_password">パスワード</string>
+    <string name="title_note">タイトル:</string>
+    <string name="tags_note">タグ:</string>
+    <string name="note_note">メモ:</string>
+    <string name="hint_field_title">タイトル</string>
+    <string name="hint_field_tags">タグ1, タグ2, タグ3&#8230;</string>
+    <string name="action_save">保存</string>
+    <string name="action_edit">編集</string>
+    <string name="action_delete">削除</string>
+    <string name="toast_success_newNote">作成しました</string>
+    <string name="toast_fatalError">致命的なエラー!</string>
+    <string name="toast_IOError">I/O エラー!</string>
+    <string name="title_password">パスワードを入力</string>
+    <string name="toast_emptyPassword">空のパスワードは許可されていません</string>
+    <string name="toast_wrongPassword">パスワードが間違っているか、データベースが破損しています</string>
+    <string name="toast_wrongPath">データベースの読み取り中にエラーが発生しました。\nパスが正しいか確認してください</string>
+    <string name="toast_errorCreatingDB">DB の作成中にエラーが発生しました。\nパスが正しいか確認してください</string>
+    <string name="toast_wrongNewPassword">パスワードが一致しません</string>
+    <string name="toast_fieldsNotFilled">フィールドが正しく入力されていません</string>
+    <string name="dialog_backNoSave">編集内容は保存されません。\n終了してもよろしいですか?</string>
+    <string name="toast_success_newDB">データベースを作成しました</string>
+    <string name="toast_success_changePsw">パスワードを変更しました</string>
+    <string name="action_filter">タグでフィルター</string>
+    <string name="dialog_deleteNote">このメモを削除してもよろしいですか?</string>
+    <string name="title_deleteNote">メモを削除</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="action_sort">リストを並び替え</string>
+    <string name="toast_sort_alphabet">アルファベット順に並び替え</string>
+    <string name="toast_sort_creation">作成順に並び替え</string>
+    <string name="toast_success_deleteNote">削除しました</string>
+    <string name="dialog_backClose">データベースを閉じてもよろしいですか?</string>
+    <string name="title_backClose">閉じる</string>
+    <string name="toast_version">Notecrypt バージョン</string>
+    <string name="toast_createdBy">\n作成者 Ludovico de Nittis</string>
+    <string name="toast_errorVersion">バージョンの取得時にエラー!</string>
+    <string name="no_notes">ここにメモはありません。\n+ ボタンを押してメモを追加してください。</string>
+    <string name="no_textNote">メモは空です。</string>
+    <string name="toast_errorInvalidKey">エラー! 入力されたパスワードには許可されていない文字があるようです</string>
+    <string name="sure">確認</string>
+    <string name="sure_rate">今すぐ評価</string>
+    <string name="later">後で</string>
+    <string name="rate">評価</string>
+    <string name="rate_message">Note Crypt をお楽しみいただいている場合、ストアでアプリの評価をしていただけません。 どうもありがとうございます。</string>
+    <string name="upgrade_message">NoteCrypt Donate/Pro バージョンを購入して、私にコーヒーを寄付していただくことを検討してください。\nそれに追加機能もあります。</string>
+    <string name="action_donate">寄付</string>
+    <string name="pref_drawer">開始時のアニメーションフィルター</string>
+    <string name="pref_drawer_summ">右にあるフィルタードロワーのアニメーションを表示します</string>
+    <string name="action_settings">設定</string>
+    <string name="title_recentDB">デフォルトのフォルダーと最近使用したデータベース (クリックして開きます):</string>
+    <string name="deleteRecent_message">データベースを削除しますか?\nこの操作は元に戻せません。</string>
+    <string name="pref_textSize">メモのフォントサイズを変更</string>
+    <string-array name="pref_textSize_entries">
+        <item >最小</item>
+        <item >小</item>
+        <item >通常</item>
+        <item >大</item>
+        <item >最大</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">検索</string>
+    <string name="action_starred">重要</string>
+    <string name="action_remove">除去</string>
+    <string name="action_overwrite">上書き</string>
+    <string name="overwrite_message">この名前のファイルは既に存在します。続行すると上書きされます。</string>
+    <string name="warning">警告</string>
+    <string name="localeWarning">パスワードは、アルファベット (A-Z)、数字、記号のみを使用することを強くお勧めします。</string>
+    <string name="action_share">共有</string>
+    <string name="explain_external_permission">Notecrypt は、メモを保存するために電話のメモリーを読み書きするアクセス許可が必要です。 恒久的に拒否した場合、システム設定->アプリ->NoteCrypt でこのアクセス許可を付与してください</string>
+</resources>
