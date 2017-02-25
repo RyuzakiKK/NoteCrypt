@@ -11,16 +11,16 @@ import android.widget.SimpleAdapter;
 
 class CustomAdapter extends SimpleAdapter {
 
-	CustomAdapter(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to) {
-		super(context, data, resource, from, to);
-	}
+    CustomAdapter(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to) {
+        super(context, data, resource, from, to);
+    }
 
-	@Override
-	public void setViewImage(ImageView v, String value) {
-		if (value.equals("false")) {
-			v.setVisibility(View.GONE);
-		} else {
-			v.setVisibility(View.VISIBLE);
-		}
-	}
+    @Override
+    public void setViewImage(ImageView v, String value) {
+        if (value.equals("false")) {
+            v.setVisibility(View.GONE);
+        } else {
+            v.setVisibility(View.VISIBLE);
+        }
+    }
 }

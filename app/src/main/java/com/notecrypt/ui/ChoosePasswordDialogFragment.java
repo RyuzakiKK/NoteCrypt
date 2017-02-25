@@ -21,83 +21,86 @@ import android.widget.Toast;
 
 /**
  * Display the custom choose password dialog.
- * @author Ludovico de Nittis
  *
+ * @author Ludovico de Nittis
  */
 public class ChoosePasswordDialogFragment extends DialogFragment {
 
-	private AsyncDelegate delegate;
-	private EditText fieldEditText;
-	private EditText confFieldEditText;
-	private ProgressBar spinner;
-	private String path;
-	private IDatabaseForNotes db;
-	private String toastOK;
-	/*
-	 * 	int toastOK: id of the toast to display if the dialog have a positive result
-	 * 	(optional) Boolean viewTextWarning: if true the dialog also display a warning message
-	 *
-	 */
-	@Override
-	public Dialog onCreateDialog(final Bundle savedInstanceState) {
-		final View view = getActivity().getLayoutInflater().inflate(R.layout.new_password, (ViewGroup)getView());
-		fieldEditText = (EditText) view.findViewById(R.id.field_password);
-		confFieldEditText = (EditText) view.findViewById(R.id.conf_field_password);
-		spinner = (ProgressBar) view.findViewById(R.id.progressBar1);
-		path = getArguments().getString("path");
+    private AsyncDelegate delegate;
+    private EditText fieldEditText;
+    private EditText confFieldEditText;
+    private ProgressBar spinner;
+    private String path;
+    private IDatabaseForNotes db;
+    private String toastOK;
+
+    /*
+     * 	int toastOK: id of the toast to display if the dialog have a positive result
+     * 	(optional) Boolean viewTextWarning: if true the dialog also display a warning message
+     *
+     */
+    @Override
+    public Dialog onCreateDialog(final Bundle savedInstanceState) {
+        final View view = getActivity().getLayoutInflater().inflate(R.layout.new_password, (ViewGroup) getView());
+        fieldEditText = (EditText) view.findViewById(R.id.field_password);
+        confFieldEditText = (EditText) view.findViewById(R.id.conf_field_password);
+        spinner = (ProgressBar) view.findViewById(R.id.progressBar1);
+        path = getArguments().getString("path");
         final String caller = getArguments().getString("caller");
         if (caller != null && caller.equals("SelectDatabaseActivity")) {
             delegate = (SelectDatabaseActivity) getActivity();
         } else {
             delegate = (MainActivity) getActivity();
         }
-		db = (IDatabaseForNotes) getArguments().getSerializable("db");
-		toastOK = getString(getArguments().getInt("toastOK"));
-		final AlertDialog passwordDialog = new AlertDialog.Builder(getActivity())
-		.setView(view)
-		.setTitle(R.string.title_password)
-		.setCancelable(false)
-		.setPositiveButton(android.R.string.ok,
-				new DialogInterface.OnClickListener() {
-			public void onClick(final DialogInterface dialog, final int whichButton) {
-				final String key = checkPasswords();
-				if (key != null && path != null) {
-					path = StringMethods.getInstance().fixPath(path);
-					new CryptoSave.Builder(db, path, key, getActivity())
-					.toastOK(toastOK)
-					.toastError(getString(R.string.toast_errorCreatingDB))
-					.spinner(spinner)
-					.delegate(delegate, caller)
-					.build().execute();
-				}
-			}
-		}
-				)
-				.setNegativeButton(android.R.string.cancel,
-						new DialogInterface.OnClickListener() {
-					public void onClick(final DialogInterface dialog, final int whichButton) {
-						InputMethodManager im = (InputMethodManager) getActivity().getSystemService(getArguments().getString("Context"));
-                        im.hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
-					}
-				}
-						)
-						.create();
+        db = (IDatabaseForNotes) getArguments().getSerializable("db");
+        toastOK = getString(getArguments().getInt("toastOK"));
+        final AlertDialog passwordDialog = new AlertDialog.Builder(getActivity())
+                .setView(view)
+                .setTitle(R.string.title_password)
+                .setCancelable(false)
+                .setPositiveButton(android.R.string.ok,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(final DialogInterface dialog, final int whichButton) {
+                                final String key = checkPasswords();
+                                if (key != null && path != null) {
+                                    path = StringMethods.getInstance().fixPath(path);
+                                    new CryptoSave.Builder(db, path, key, getActivity())
+                                            .toastOK(toastOK)
+                                            .toastError(getString(R.string.toast_errorCreatingDB))
+                                            .spinner(spinner)
+                                            .delegate(delegate, caller)
+                                            .build().execute();
+                                }
+                            }
+                        }
+                )
+                .setNegativeButton(android.R.string.cancel,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(final DialogInterface dialog, final int whichButton) {
+                                InputMethodManager im = (InputMethodManager) getActivity().getSystemService(getArguments().getString("Context"));
+                                im.hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
+                            }
+                        }
+                )
+                .create();
 
-		passwordDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
-		return passwordDialog;
-	}
-	/**
-	 * Check the two passwords inserted. 
-	 * @return the password inserted or null if there is an error 
-	 */
-	private String checkPasswords() {
-		if (fieldEditText.getText().toString().equals("") || confFieldEditText.getText().toString().equals("")) {
-			Toast.makeText(getActivity(), R.string.toast_fieldsNotFilled, Toast.LENGTH_LONG).show();
-			return null;
-		} else if (fieldEditText.getText().toString().equals(confFieldEditText.getText().toString())) {
-			return fieldEditText.getText().toString();
-		}
-		Toast.makeText(getActivity(), R.string.toast_wrongNewPassword, Toast.LENGTH_LONG).show();
-		return null;
-	}
+        passwordDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        return passwordDialog;
+    }
+
+    /**
+     * Check the two passwords inserted.
+     *
+     * @return the password inserted or null if there is an error
+     */
+    private String checkPasswords() {
+        if (fieldEditText.getText().toString().equals("") || confFieldEditText.getText().toString().equals("")) {
+            Toast.makeText(getActivity(), R.string.toast_fieldsNotFilled, Toast.LENGTH_LONG).show();
+            return null;
+        } else if (fieldEditText.getText().toString().equals(confFieldEditText.getText().toString())) {
+            return fieldEditText.getText().toString();
+        }
+        Toast.makeText(getActivity(), R.string.toast_wrongNewPassword, Toast.LENGTH_LONG).show();
+        return null;
+    }
 }

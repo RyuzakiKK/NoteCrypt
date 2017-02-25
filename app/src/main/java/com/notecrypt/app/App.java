@@ -1,6 +1,7 @@
 package com.notecrypt.app;
 
 import android.app.Application;
+
 import com.notecrypt.utils.DatabaseForNotes;
 
 
@@ -11,30 +12,30 @@ public class App extends Application {
     private static boolean isAnActivityCounting; //false by default
     private static DatabaseForNotes db;
     private static String singleNote;
-    
+
     public static int getTimesInBackground() {
-    	return timesInBackground;
+        return timesInBackground;
     }
-    
+
     public static boolean isInForeground() {
-    	return isInForeground;
+        return isInForeground;
     }
-    
+
     public static boolean isAnActivityCounting() {
-    	return isAnActivityCounting;
+        return isAnActivityCounting;
     }
-    
+
     public static void setIsAnActivityCounting(final boolean newState) {
-    	isAnActivityCounting = newState;
+        isAnActivityCounting = newState;
     }
-    
+
     public static void setIsInForeground(final boolean newState) {
-    	isInForeground = newState;
-    	timesInBackground = 0;
+        isInForeground = newState;
+        timesInBackground = 0;
     }
-    
+
     public static void incTimesInBackground() {
-    	timesInBackground++;
+        timesInBackground++;
     }
 
     public static void setDatabase(DatabaseForNotes database) {
@@ -45,11 +46,11 @@ public class App extends Application {
         return db;
     }
 
-    public static void setNote (String note) {
+    public static void setNote(String note) {
         singleNote = note;
     }
 
-    public static String getNote () {
+    public static String getNote() {
         return singleNote;
     }
 }
