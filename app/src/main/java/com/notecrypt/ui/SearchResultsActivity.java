@@ -46,13 +46,15 @@ public class SearchResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //enable the ability to press the title as back button
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         final Intent intent = getIntent();
         final String query = intent.getStringExtra(SearchManager.QUERY);
         setTitle("\"" + query + "\"");
         db = App.getDatabase();
         list = (List<Map<String, String>>) intent.getSerializableExtra("list");
-        final ListView listview = (ListView) findViewById(android.R.id.list);
+        final ListView listview = findViewById(android.R.id.list);
         final String[] from = {IDatabaseForNotes.TITLE, IDatabaseForNotes.STAR};
         final int[] to = {R.id.txt, R.id.star};
         findViewById(R.id.empty).setVisibility(View.INVISIBLE);
@@ -72,7 +74,7 @@ public class SearchResultsActivity extends AppCompatActivity {
                 startActivityForResult(intent, DatabaseForNotesAsync.REQUEST_EDIT_NOTE);
             }
         });
-        final DrawerLayout mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final DrawerLayout mDrawerLayout = findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
         mHandler = new Handler();
         r = new Runnable() {

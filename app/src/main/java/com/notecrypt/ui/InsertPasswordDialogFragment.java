@@ -16,6 +16,8 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Objects;
+
 
 /**
  * Display the custom insert password dialog.
@@ -30,7 +32,7 @@ public class InsertPasswordDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
         final View view = getActivity().getLayoutInflater().inflate(R.layout.insert_password, (ViewGroup) getView());
-        fieldEditText = (EditText) view.findViewById(R.id.field_password);
+        fieldEditText = view.findViewById(R.id.field_password);
         path = getArguments().getString("path");
         fieldEditText.requestFocus();
 
@@ -55,13 +57,23 @@ public class InsertPasswordDialogFragment extends DialogFragment {
                 .setNegativeButton(android.R.string.cancel,
                         new DialogInterface.OnClickListener() {
                             public void onClick(final DialogInterface dialog, final int whichButton) {
-                                InputMethodManager im = (InputMethodManager) getActivity().getSystemService(getArguments().getString("Context"));
-                                im.hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
+                                try {
+                                    InputMethodManager im = (InputMethodManager) getActivity().getSystemService(Objects.requireNonNull(getArguments().getString("Context")));
+                                    Objects.requireNonNull(im).hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
+                                } catch (NullPointerException npe) {
+                                    // Something bad happened but preventing the app from crashing
+                                    // should be fine. Maybe we should log this event.
+                                }
                             }
                         }
                 )
                 .create();
-        passwordDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        try {
+            Objects.requireNonNull(passwordDialog.getWindow()).setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        } catch (NullPointerException npe) {
+            // Something bad happened but preventing the app from crashing
+            // should be fine. Maybe we should log this event.
+        }
         return passwordDialog;
     }
 }

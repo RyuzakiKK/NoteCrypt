@@ -13,9 +13,6 @@ import com.notecrypt.utils.IDatabaseForNotes;
 import com.notecrypt.utils.StringMethods;
 import com.notecryptpro.R;
 
-import android.annotation.TargetApi;
-import android.graphics.Outline;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -31,7 +28,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewOutlineProvider;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -89,14 +85,14 @@ public class MainActivity extends AppCompatActivity implements AsyncDelegate {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toast0 = Toast.makeText(getApplicationContext(), null, Toast.LENGTH_LONG);
-        spinner = (ProgressBar) findViewById(R.id.progressBar2);
+        spinner = findViewById(R.id.progressBar2);
         spinner.setVisibility(View.VISIBLE);
         final Intent intent = getIntent();
         path = intent.getStringExtra("path");
         setTitle(StringMethods.getInstance().getNameDB(path));
         key = intent.getStringExtra("key");
         db = App.getDatabase();
-        listview = (ListView) findViewById(android.R.id.list);
+        listview = findViewById(android.R.id.list);
         final String[] from = {IDatabaseForNotes.TITLE, IDatabaseForNotes.STAR};
         final int[] to = {R.id.txt, R.id.star};
         db.initializeLists();
@@ -136,8 +132,8 @@ public class MainActivity extends AppCompatActivity implements AsyncDelegate {
                 return true;
             }
         });
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerList = (ListView) findViewById(R.id.left_drawer);
+        mDrawerLayout = findViewById(R.id.drawer_layout);
+        mDrawerList = findViewById(R.id.left_drawer);
         arrayTagList = new ArrayList<>();
         mDrawerList.setAdapter(new ArrayAdapter<>(this, R.layout.drawer_list_item, arrayTagList));
         ((BaseAdapter) mDrawerList.getAdapter()).notifyDataSetChanged();
@@ -223,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements AsyncDelegate {
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         searchMenuItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) searchMenuItem.getActionView();
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        searchView.setSearchableInfo(searchManager != null ? searchManager.getSearchableInfo(getComponentName()) : null);
         searchView.setIconifiedByDefault(false);
         searchView.requestFocusFromTouch();
         return true;
@@ -256,7 +252,9 @@ public class MainActivity extends AppCompatActivity implements AsyncDelegate {
                 return true;
             case R.id.action_search:
                 InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                inputMethodManager.toggleSoftInputFromWindow(listview.getApplicationWindowToken(), InputMethodManager.SHOW_FORCED, 0);
+                if (inputMethodManager != null) {
+                    inputMethodManager.toggleSoftInputFromWindow(listview.getApplicationWindowToken(), InputMethodManager.SHOW_FORCED, 0);
+                }
             default:
                 return super.onOptionsItemSelected(item);
         }

@@ -64,7 +64,7 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
         if (getResources().getBoolean(R.bool.portrait_only)) { //Portrait only on phone (also landscape on tablet)
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
-        listView = (ListView) findViewById(android.R.id.list);
+        listView = findViewById(android.R.id.list);
         setRecent = new HashSet<>();
         setRecent = getPreferences(MODE_PRIVATE).getStringSet("recent", null);
         if (setRecent != null) {
@@ -104,9 +104,9 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
                 return true;
             }
         });
-        editText = (EditText) findViewById(R.id.editTextPath);
+        editText = findViewById(R.id.editTextPath);
         editText.setText(getPreferences(MODE_PRIVATE).getString("path", DEFAULT_PATH));
-        final ImageButton buttonStorage = (ImageButton) findViewById(R.id.buttonStorage);
+        final ImageButton buttonStorage = findViewById(R.id.buttonStorage);
         buttonStorage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
@@ -119,7 +119,7 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
             }
         });
 
-        final Button buttonOpen = (Button) findViewById(R.id.buttonOpen);
+        final Button buttonOpen = findViewById(R.id.buttonOpen);
         buttonOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
@@ -141,7 +141,7 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
             }
         });
 
-        final Button buttonCreate = (Button) findViewById(R.id.buttonCreate);
+        final Button buttonCreate = findViewById(R.id.buttonCreate);
         buttonCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
@@ -272,9 +272,11 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
     protected void onActivityResult(final int requestCode, final int resultCode, final Intent intent) {
         if (resultCode == RESULT_OK) {
             final Uri uri = intent.getData();
-            final String path = convertMediaUriToPath(uri);
-            final EditText editText = (EditText) findViewById(R.id.editTextPath);
-            editText.setText(path);
+            if (uri != null) {
+                final String path = convertMediaUriToPath(uri);
+                final EditText editText = findViewById(R.id.editTextPath);
+                editText.setText(path);
+            }
         }
     }
 
@@ -285,20 +287,27 @@ public class SelectDatabaseActivity extends AppCompatActivity implements AsyncDe
      * @return path of the file
      */
     private String convertMediaUriToPath(final Uri uri) {
-        if (uri.toString().substring(0, 4).equals("file")) {
-            //remove "file://" from the uri
-            return uri.toString().substring(7);
-        } else if (uri.toString().substring(0, 7).equals("content")) {
-            final String[] project = {MediaStore.Files.FileColumns.DATA};
-            final Cursor cursor = getContentResolver().query(uri, project, null, null, null);
-            final int columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
-            cursor.moveToFirst();
-            final String path = cursor.getString(columnIndex);
-            cursor.close();
-            return path;
+        final String sUri = uri.toString();
+        final int minLenght = "file://".length();
+        String path = "";
+
+        //uri should always begin with "file" or "content"
+        if (sUri.length() > minLenght) {
+            if (sUri.substring(0, 4).equals("file")) {
+                //remove "file://" from the uri
+                path = uri.toString().substring(7);
+            } else if (uri.toString().substring(0, 7).equals("content")) {
+                final String[] project = {MediaStore.Files.FileColumns.DATA};
+                final Cursor cursor = getContentResolver().query(uri, project, null, null, null);
+                if (cursor != null) {
+                    final int columnIndex = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+                    cursor.moveToFirst();
+                    path = cursor.getString(columnIndex);
+                    cursor.close();
+                }
+            }
         }
-        //uri will always begin with file or content, but with this is handled even if uri have something weird
-        return "";
+        return path;
     }
 
     private void updateRecentList(String item, boolean isDelete) {

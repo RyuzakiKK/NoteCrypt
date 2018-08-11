@@ -39,7 +39,9 @@ public class ReadNoteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read_note);
         //enable the ability to press the title as back button
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         final Intent intent = getIntent();
         listViewLocation = intent.getIntExtra("listViewLocation", -1);
         location = Long.parseLong(intent.getStringExtra("location"));
@@ -50,10 +52,10 @@ public class ReadNoteActivity extends AppCompatActivity {
         isStarred = db.getNotes().get(location).isStarred();
         //If the text of the note is empty a message will be displayed
         if (textNote == null || textNote.equals("")) {
-            final TextView textViewNoNote = (TextView) findViewById(R.id.textViewNoNote);
+            final TextView textViewNoNote = findViewById(R.id.textViewNoNote);
             textViewNoNote.setText(getString(R.string.no_textNote));
         } else {
-            final TextView textViewNote = (TextView) findViewById(R.id.textViewNote);
+            final TextView textViewNote = findViewById(R.id.textViewNote);
             textViewNote.setText(db.getNotes().get(location).getNote());
         }
         mHandler = new Handler();
@@ -212,7 +214,7 @@ public class ReadNoteActivity extends AppCompatActivity {
 
     private void setSize() {
         int prefDrawer = Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(this).getString("pref_textSize", "20"));
-        final TextView textViewNoNote = (TextView) findViewById(R.id.textViewNote);
+        final TextView textViewNoNote = findViewById(R.id.textViewNote);
         textViewNoNote.setTextSize(TypedValue.COMPLEX_UNIT_SP, prefDrawer);
     }
 

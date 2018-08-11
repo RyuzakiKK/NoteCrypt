@@ -8,11 +8,18 @@ import android.view.MenuItem;
 import com.notecrypt.app.App;
 import com.notecryptpro.R;
 
+import java.util.Objects;
+
 public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        try {
+            Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        } catch (NullPointerException npe) {
+            // Something bad happened but preventing the app from crashing
+            // should be fine. Maybe we should log this event.
+        }
         // Display the fragment as the main content.
         getFragmentManager().beginTransaction()
                 .replace(android.R.id.content, new SettingsFragment())

@@ -40,9 +40,9 @@ public class EditNoteActivity extends AppCompatActivity {
         final String title = intent.getStringExtra(IDatabaseForNotes.TITLE);
         final String tags = intent.getStringExtra(IDatabaseForNotes.TAGS);
         final String note = App.getNote();
-        final TextView textViewTitle = (TextView) findViewById(R.id.editTextTitle);
-        final MultiAutoCompleteTextView macTextViewTags = (MultiAutoCompleteTextView) findViewById(R.id.editTextTags);
-        final TextView textViewNote = (TextView) findViewById(R.id.editTextNote);
+        final TextView textViewTitle = findViewById(R.id.editTextTitle);
+        final MultiAutoCompleteTextView macTextViewTags = findViewById(R.id.editTextTags);
+        final TextView textViewNote = findViewById(R.id.editTextNote);
         textViewTitle.setText(title);
         macTextViewTags.setText(tags);
         textViewNote.setText(note);
@@ -110,7 +110,8 @@ public class EditNoteActivity extends AppCompatActivity {
                 }
                 if (App.getTimesInBackground() >= MainActivity.MAX_TIMES_BACKGROUND) {
                     EditNoteActivity.this.finish();
-                } else if (!isEditNoteActivityForeground) { //Check in loop until the user change app or return to this activity
+                } else if (!isEditNoteActivityForeground) {
+                    //Check in loop until the user change app or return to this activity
                     mHandler.postDelayed(r, MainActivity.TIMEOUT_SPLITTED);
                 }
             }
@@ -137,7 +138,7 @@ public class EditNoteActivity extends AppCompatActivity {
     }
 
     /*
-     * Create an AlertDialog if the user press the back button.
+     * Create an AlertDialog if the user presses the back button.
      */
     @Override
     public void onBackPressed() {
@@ -159,9 +160,9 @@ public class EditNoteActivity extends AppCompatActivity {
      * Save in the extra the fields filled by the user and set the result to RESULT_OK.
      */
     private void saveNote() {
-        final EditText fieldTitle = (EditText) findViewById(R.id.editTextTitle);
-        final EditText fieldTags = (EditText) findViewById(R.id.editTextTags);
-        final EditText fieldNote = (EditText) findViewById(R.id.editTextNote);
+        final EditText fieldTitle = findViewById(R.id.editTextTitle);
+        final EditText fieldTags = findViewById(R.id.editTextTags);
+        final EditText fieldNote = findViewById(R.id.editTextNote);
         final Intent intent = getIntent();
         intent.putExtra(IDatabaseForNotes.TITLE, fieldTitle.getText().toString());
         intent.putExtra(IDatabaseForNotes.TAGS, fieldTags.getText().toString());

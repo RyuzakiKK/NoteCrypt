@@ -18,6 +18,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import java.util.Objects;
+
 
 /**
  * Display the custom choose password dialog.
@@ -42,9 +44,9 @@ public class ChoosePasswordDialogFragment extends DialogFragment {
     @Override
     public Dialog onCreateDialog(final Bundle savedInstanceState) {
         final View view = getActivity().getLayoutInflater().inflate(R.layout.new_password, (ViewGroup) getView());
-        fieldEditText = (EditText) view.findViewById(R.id.field_password);
-        confFieldEditText = (EditText) view.findViewById(R.id.conf_field_password);
-        spinner = (ProgressBar) view.findViewById(R.id.progressBar1);
+        fieldEditText = view.findViewById(R.id.field_password);
+        confFieldEditText = view.findViewById(R.id.conf_field_password);
+        spinner = view.findViewById(R.id.progressBar1);
         path = getArguments().getString("path");
         final String caller = getArguments().getString("caller");
         if (caller != null && caller.equals("SelectDatabaseActivity")) {
@@ -77,14 +79,23 @@ public class ChoosePasswordDialogFragment extends DialogFragment {
                 .setNegativeButton(android.R.string.cancel,
                         new DialogInterface.OnClickListener() {
                             public void onClick(final DialogInterface dialog, final int whichButton) {
-                                InputMethodManager im = (InputMethodManager) getActivity().getSystemService(getArguments().getString("Context"));
-                                im.hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
+                                try {
+                                    InputMethodManager im = (InputMethodManager) getActivity().getSystemService(Objects.requireNonNull(getArguments().getString("Context")));
+                                    Objects.requireNonNull(im).hideSoftInputFromWindow(fieldEditText.getWindowToken(), 0);
+                                } catch (NullPointerException npe) {
+                                    // Something bad happened but preventing the app from crashing
+                                    // should be fine. Maybe we should log this event.
+                                }
                             }
                         }
                 )
                 .create();
-
-        passwordDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        try {
+            Objects.requireNonNull(passwordDialog.getWindow()).setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        } catch (NullPointerException npe) {
+            // Something bad happened but preventing the app from crashing
+            // should be fine. Maybe we should log this event.
+        }
         return passwordDialog;
     }
 
