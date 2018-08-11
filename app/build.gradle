@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.notecryptpro"
-        versionCode 18
+        versionCode 19
         minSdkVersion 19
         targetSdkVersion 28
     }
