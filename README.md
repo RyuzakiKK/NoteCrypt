@@ -14,7 +14,7 @@ Keep your notes safe and secure with Note Crypt for Android!
 
 If you forget your password, the notes will be inaccessible.
 
-Thanks to [naofum](https://github.com/naofum) for the Japanese translation.
+Thanks to [naofum](https://github.com/naofum) for the Japanese translation and to [hanelore](https://github.com/hanelore) for the Brazilian Portuguese translation.
 
 ## Download
 
