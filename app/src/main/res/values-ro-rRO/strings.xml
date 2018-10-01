@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Schimba Parola</string>
+    <string name="action_newNote">Adauga Notita Noua</string>
+    <string name="action_about">Despre</string>
+    <string name="hint_field_new_password">Parola Noua</string>
+    <string name="hint_field_conf_password">Confirma Parola</string>
+    <string name="title_changeMasterPass">Introdu Parola Principala</string>
+    <string name="title_databaseLocation">Introdu Locatia Bazei de Date:</string>
+    <string name="desc_fileManager">Deschide Manager de Fisiere</string>
+    <string name="butt_open">Deschide</string>
+    <string name="butt_create">Creeaza</string>
+    <string name="hint_field_password">Parola</string>
+    <string name="title_note">Titlu:</string>
+    <string name="tags_note">Etichete:</string>
+    <string name="note_note">Notita:</string>
+    <string name="hint_field_title">Titlu</string>
+    <string name="hint_field_tags">Eticheta1, Eticheta2, Eticheta3&#8230;</string>
+    <string name="action_save">Salveaza</string>
+    <string name="action_edit">Editeaza</string>
+    <string name="action_delete">Sterge</string>
+    <string name="toast_success_newNote">Creat cu success</string>
+    <string name="toast_fatalError">FATAL ERROR!</string>
+    <string name="toast_IOError">Eroare I/O!</string>
+    <string name="title_password">Introdu Parola</string>
+    <string name="toast_emptyPassword">Nu este permisa parola goala</string>
+    <string name="toast_wrongPassword">Parola este gresita sau baza de date este corupta</string>
+    <string name="toast_wrongPath">Eroare de citire a bazei de date.\nVerifica corectitudinea locatiei</string>
+    <string name="toast_errorCreatingDB">Eroare la creearea bazei de date.\nVerifica corectitudinea locatiei</string>
+    <string name="toast_wrongNewPassword">Parolele sunt diferite</string>
+    <string name="toast_fieldsNotFilled">Campurile nu au fost completate corect</string>
+    <string name="dialog_backNoSave">Schimbarile nu vor fi salvate.\nSigur vrei sa iesi?</string>
+    <string name="toast_success_newDB">Baza de date a fost creata</string>
+    <string name="toast_success_changePsw">Parola a fost schimbata</string>
+    <string name="action_filter">Filtreaza dupa eticheta</string>
+    <string name="dialog_deleteNote">Sigur vrei sa stergi aceasta notita?</string>
+    <string name="title_deleteNote">Sterge Notita</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+    <string name="action_sort">Sorteaza Lista</string>
+    <string name="toast_sort_alphabet">Sorteaza Alfabetic</string>
+    <string name="toast_sort_creation">Sorteaza dupa Data </string>
+    <string name="toast_success_deleteNote">Sters cu success</string>
+    <string name="dialog_backClose">Sigur vrei sa inchizi baza de date?</string>
+    <string name="title_backClose">Inchide</string>
+    <string name="toast_version">Versiune Notecrypt</string>
+    <string name="toast_createdBy">\nCreat de Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Eroare Nu se poate gasi versiunea!</string>
+    <string name="no_notes">Nu exista nici o notita.\nApasa butonu + pentru adaugare.</string>
+    <string name="no_textNote">Notita goala.</string>
+    <string name="toast_errorInvalidKey">Eroare Probabil parola introdusa contine caractere care nu sunt permise!</string>
+    <string name="sure">Sigur</string>
+    <string name="sure_rate">Evalueaza acum</string>
+    <string name="later">Alta data</string>
+    <string name="rate">Evalueaza</string>
+    <string name="rate_message">Daca va place Note Crypt as aprecia foarte mult sa ma evaluati in magazin. Va multumesc foarte mult.</string>
+    <string name="upgrade_message">Puteti sa imi cumparati o cafea in schimbul versiunii NoteCrypt Donate/Pro. Cu versiunea Pro veti beneficia de functii aditionale.</string>
+    <string name="action_donate">Doneaza</string>
+    <string name="pref_drawer">Filtru animatie la pornire</string>
+    <string name="pref_drawer_summ">Afiseaza animatia meniului cu filtre din dreapta.</string>
+    <string name="action_settings">Setari</string>
+    <string name="title_recentDB">Baze de date recente sau in locatia prestabilita (click pentru deschidere):</string>
+    <string name="deleteRecent_message">Sterge baza de date?\nAceasta actiune este ireversibila.</string>
+    <string name="pref_textSize">Schimba dimensiunea textului pentru notite</string>
+    <string-array name="pref_textSize_entries">
+        <item >Foarte Mic</item>
+        <item >Mic</item>
+        <item >Normal</item>
+        <item >Mare</item>
+        <item >Foarte Mare</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Cauta</string>
+    <string name="action_starred">Important</string>
+    <string name="action_remove">Sterge</string>
+    <string name="action_overwrite">Suprascrie</string>
+    <string name="overwrite_message">Un fisier cu acest nume deja exista, daca continuati va fi suprascris.</string>
+    <string name="warning">Avertizare</string>
+    <string name="localeWarning">Este recomandat sa folositi o parola formata din caractere ale alfabetului Latin (A-Z), numere si simboluri.</string>
+    <string name="action_share">Partajare</string>
+    <string name="explain_external_permission">Notecrypt are nevoie de permisiuni pentru citire si scriere in memoria dispozitivului pentru a stoca notitele. Daca anterior ati interzis permanent permisiunea puteti sa o reconfigurati din meniu la Setari->Apps->NoteCrypt.</string>
+</resources>
