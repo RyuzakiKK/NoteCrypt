@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">تغيير كلمة السر</string>
+    <string name="action_newNote">اضف ملحوظة جديدة</string>
+    <string name="action_about">عننا</string>
+    <string name="hint_field_new_password">كلمة سر جديدة</string>
+    <string name="hint_field_conf_password">أكد كلمة السر</string>
+    <string name="title_changeMasterPass">ادخل كلمة سر رئيسية جديدة</string>
+    <string name="title_databaseLocation">ادخل اسم ملف قاعدة البيانات:</string>
+    <string name="desc_fileManager">افتح مدير الملفات</string>
+    <string name="butt_open">افتح</string>
+    <string name="butt_create">انشئ</string>
+    <string name="hint_field_password">كلمة سر</string>
+    <string name="title_note">العنوان:</string>
+    <string name="tags_note">التصنيفات:</string>
+    <string name="note_note">ملحوظة:</string>
+    <string name="hint_field_title">العنوان</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_delete">حذف</string>
+    <string name="toast_success_newNote">تم الانشاء بنجاح</string>
+    <string name="toast_fatalError">حدث خطأ ما !</string>
+    <string name="toast_IOError">خطأ في المدخلات !</string>
+    <string name="title_password">ادخل كلمة السر</string>
+    <string name="toast_emptyPassword">كلمة السر الفارغة غير مسموح بها</string>
+    <string name="toast_wrongPassword">خطأ في كلمة السر او قاعدة البيانات تالفة</string>
+    <string name="toast_wrongPath">خطأ في قرائة قاعدة البيانات.\n تحقق من صحة المسار</string>
+    <string name="toast_errorCreatingDB">خطأ في انشاء قاعدة البيانات.\n تحقق من صحة المسار</string>
+    <string name="toast_wrongNewPassword">كلمات السر غير متطابقة</string>
+    <string name="toast_fieldsNotFilled">لم يتم ملئ البيانات بشكل صحيح</string>
+    <string name="dialog_backNoSave">لن يتم حفظ تعديلاتك.\n هل انت متأكد من الخروج ؟</string>
+    <string name="toast_success_newDB">تم انشاء قاعدة البيانات بنجاح</string>
+    <string name="toast_success_changePsw">تم تغيير كلمة السر بنجاح</string>
+    <string name="action_filter">الاختيار بحسب التصنيفات</string>
+    <string name="dialog_deleteNote">هل انت متأكد انك تريد حذف هذه الملحوظة ؟</string>
+    <string name="title_deleteNote">حذف الملحوظة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="action_sort">رتب القائمة</string>
+    <string name="toast_sort_alphabet">ترتيب ابجدي</string>
+    <string name="toast_sort_creation">ترتيب بحسب الانشاء</string>
+    <string name="toast_success_deleteNote">تم الحذف بنجاح</string>
+    <string name="dialog_backClose">متأكد من اغلاق قاعدة البيانات؟</string>
+    <string name="title_backClose">اغلق</string>
+    <string name="toast_version">Notecrypt اصدار</string>
+    <string name="toast_createdBy">\n Ludovico de Nittis تم الانشاء بواسطة</string>
+    <string name="toast_errorVersion">خطأ في الحصول على الاصدار !</string>
+    <string name="no_notes">لا توجد ملحوظات هنا.\n اضغط على الـ+ لاضافة ملحوظة جديدة</string>
+    <string name="no_textNote">ملحوظة فارغة .</string>
+    <string name="toast_errorInvalidKey">هنا خطأ ! كلمة السر المدخلة يوجد بها حروف غير مسموح بها</string>
+    <string name="sure">بالتأكيد</string>
+    <string name="sure_rate">قيم الان</string>
+    <string name="later">ربما لاحقا</string>
+    <string name="rate">التقييم</string>
+    <string name="rate_message">اذا استمتعت بالتطبيق, سأكون ممتناَ لتقيمك لنا على المتجر. شكرا جزيلا.</string>
+    <string name="upgrade_message">الرجاء دعمي عن طريق شراء NoteCrypt Donate/Pro .\n ومعها ستحصل على ميزات اضافية</string>
+    <string name="action_donate">الدعم</string>
+    <string name="pref_drawer">Animation filter on start</string>
+    <string name="pref_drawer_summ">Display the animation of the filter drawer on the right</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_recentDB"> قاعدة البينات في المكان الافتراضي والاخير اضغط للفتح </string>
+    <string name="deleteRecent_message">حذف قاعدة البيانات ؟\nلا يمكن الرجوع في هذه العملية.</string>
+    <string name="pref_textSize">تغير حجم الخط في الملحوظات</string>
+    <string-array name="pref_textSize_entries">
+        <item >صغير جدا</item>
+        <item >صغير</item>
+        <item >عادي</item>
+        <item >كبير </item>
+        <item >كبير جدا</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">بحث</string>
+    <string name="action_starred">مهم</string>
+    <string name="action_remove">حذف</string>
+    <string name="action_overwrite">اعادة كتابة</string>
+    <string name="overwrite_message">يوجد م بنفس الاسم .. في حالة الاستمرار سيتم التعديل عليه</string>
+    <string name="warning">تحذير</string>
+    <string name="localeWarning">ينصح باستخدام الحروف الانجليزية في كلمة السر و الارقام والرموز.</string>
+    <string name="action_share">مشاركة</string>
+    <string name="explain_external_permission">notecrypt يحتاج التطبيق الى صلاحيات القرائة والكتابة على هاتفك حتى يتم حفظ ملحوظاتك. اذا رفضت ذلك يمكن اعطاء الصلاحيات عن طريق فتح اعدادات الهاتف ثم التطبيقات ثم</string>
+</resources>
