@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Αλλαγή Κωδικού Πρόσβασης</string>
+    <string name="action_newNote">Προσθήκη Νέας Σημείωσης</string>
+    <string name="action_about">Σχετικά</string>
+    <string name="hint_field_new_password">Νέος Κωδικός Πρόσβασης</string>
+    <string name="hint_field_conf_password">Επιβεβαίωση Κωδικού Πρόσβασης</string>
+    <string name="title_changeMasterPass">Προσθήκη νέου Κύριου Κωδικού Πρόσβασης</string>
+    <string name="title_databaseLocation">Εισάγετε όνομα αρχείου βάσης δεδομένων:</string>
+    <string name="desc_fileManager">Άνοιγμα Διαχείρισης Αρχείων</string>
+    <string name="butt_open">Άνοιγμα</string>
+    <string name="butt_create">Δημιουργία</string>
+    <string name="hint_field_password">Κωδικός Πρόσβασης</string>
+    <string name="title_note">Τίτλος:</string>
+    <string name="tags_note">Ετικέτα:</string>
+    <string name="note_note">Σημείωση:</string>
+    <string name="hint_field_title">Τίτλος</string>
+    <string name="hint_field_tags">Σημείωση1, Σημείωση2, Σημείωση3&#8230;</string>
+    <string name="action_save">Αποθήκευση</string>
+    <string name="action_edit">Επεξεργασία</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="toast_success_newNote">Επιτυχής δημιουργία</string>
+    <string name="toast_fatalError">ΚΡΙΣΙΜΟ ΣΦΑΛΜΑ!</string>
+    <string name="toast_IOError">I/O Σφάλμα!</string>
+    <string name="title_password">Εισάγετε Κωδικό Πρόσβασης</string>
+    <string name="toast_emptyPassword">Δεν επιτρέπεται Κενός Κωδικός Πρόσβασης</string>
+    <string name="toast_wrongPassword">Λανθασμένος Κωδικός Πρόσβασης ή αλλοιωμένη βάση δεδομένων</string>
+    <string name="toast_wrongPath">Σφάλμα ανάγνωσης της βάσης δεδομένων.\nΕλέξτε την ορθότητα της διαδρομής αρχείου</string>
+    <string name="toast_errorCreatingDB">Σφάλμα δημιουργίας της βάσης δεδομένων.\nΕλέξτε την ορθότητα της διαδρομής αρχείου</string>
+    <string name="toast_wrongNewPassword">Οι Κωδικοί Πρόσβασης δεν ταιριάζουν</string>
+    <string name="toast_fieldsNotFilled">Τα πεδία δεν συμπληρώθηκαν σωστά</string>
+    <string name="dialog_backNoSave">Η επεξεργασία σας δεν θα αποθηκευτεί.\nΕίστε σίγουροι ότι θέλετε να αποχωρήσετε;</string>
+    <string name="toast_success_newDB">Η βάση δεδομένων δημιουργήθηκε επιτυχώς</string>
+    <string name="toast_success_changePsw">PΟ Κωδικός Πρόσβασης άλλαξε επιτυχώς</string>
+    <string name="action_filter">Φιλτράρισμα ανά ετικέτα</string>
+    <string name="dialog_deleteNote">Είστε σίγουροι πως θέλετε να διαγράψετε αυτή τη σημείωση;</string>
+    <string name="title_deleteNote">Διαγραφή σημείωσης</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="action_sort">Ταξινόμηση Λίστας</string>
+    <string name="toast_sort_alphabet">Αλφαβητική ταξινόμηση</string>
+    <string name="toast_sort_creation">Ταξινόμηση ημερομηνίας δημιουργίας</string>
+    <string name="toast_success_deleteNote">Διαγράφηκε επιτυχώς</string>
+    <string name="dialog_backClose">Να κλέισει όντως η βάση δεδομένων;</string>
+    <string name="title_backClose">Κλείσιμο</string>
+    <string name="toast_version">Έκδοση Notecrypt</string>
+    <string name="toast_createdBy">\nΔημιουργήθηκε από τον Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Πρόβλημα στην εύρεση έκδοσης!</string>
+    <string name="no_notes">Καμία σημείωση εδώ.\nΠιέστε το + πλήκτρο για να προσθέτε σημείωση.</string>
+    <string name="no_textNote">Κενό Κείμενο Σημείωσης.</string>
+    <string name="toast_errorInvalidKey">Σφάλμα! Πιθανότατα ο Κωδικός Πρόσβασης έχει μερικούς μη επιτρεπόμενους χαρακτήρες.</string>
+    <string name="sure">Σίγουρα</string>
+    <string name="sure_rate">Βαθμολογίστε τώρα</string>
+    <string name="later">Ίσως αργότερα</string>
+    <string name="rate">Βαθμολόγηση</string>
+    <string name="rate_message">Αν σας αρέσει το Note Crypt, Θα εκτιμούσα πολύ την Βαθμολόγηση σας στο store. Ευχαριστώ πολύ.</string>
+    <string name="upgrade_message">Παρακαλώ σκεφτήτε να μου προσφέρετε έναν καφέ αγοράζοντας την έκδοση NoteCrypt Donate/Pro.\nΜε αυτήν θα αποκτήσετε επιπλέον χαρακτηριστικά.</string>
+    <string name="action_donate">Δωρεά</string>
+    <string name="pref_drawer">Φίλτρο Animation στην αρχή</string>
+    <string name="pref_drawer_summ">Προβολή του animation του συρατριού φίλτρων στα δεξιά</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="title_recentDB">Βάση δεδομένων στον προεπιλεγμένο φάκελο και ενημερωμένη(πατήστε για άνοιγμα)):</string>
+    <string name="deleteRecent_message">Διαγραφή της βάσης?\nΑυτή η ενέργεια είναι μη αναστρέψιμη.</string>
+    <string name="pref_textSize">Αλλαγή μεγέθους γραμματοσειράς για τις σημειώσης</string>
+    <string-array name="pref_textSize_entries">
+        <item >Πολύ μικρό</item>
+        <item >Μικρό</item>
+        <item >Κανονικό</item>
+        <item >Μεγάλο</item>
+        <item >Πολύ μεγάλο</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Αναζήτηση</string>
+    <string name="action_starred">Σημαντικό</string>
+    <string name="action_remove">Αφαίρεση</string>
+    <string name="action_overwrite">Αντικατάσταση</string>
+    <string name="overwrite_message">Ένα αρχείο με το ίδιο όνομα υπάρχει ήδη, αν συνεχίσετε θα αντικατασταθεί.</string>
+    <string name="warning">Προειδοποίηση</string>
+    <string name="localeWarning">Συνιστάται να χρήσιμοποιήσετε σαν κώδικο μόνο λατινικούς χαρακτήρες (A-Z), αριθμούς και σύμβολα.</string>
+    <string name="action_share">Κοινοποίηση</string>
+    <string name="explain_external_permission">Το Notecrypt χρειάζεται άδεια για ανάγνωση και εγγραφή στην μνήμη της συσκεσυής για να αποθηκεύσει τις σημειώσεις σας. Αν το αρνηθήκατε τελειώς μπορείτε να δώσετε αυτή την άδεια ανοίγοντας τις Ρυθμίσεις Συστήματος->Εφαρμογές->NoteCrypt.</string>
+</resources>
