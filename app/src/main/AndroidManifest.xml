@@ -11,6 +11,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
         <activity
             android:name="com.notecrypt.ui.SelectDatabaseActivity"
             android:label="@string/app_name"
