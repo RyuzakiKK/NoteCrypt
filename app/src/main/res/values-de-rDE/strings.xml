@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Passwort ändern</string>
+    <string name="action_newNote">Neue Notiz</string>
+    <string name="action_about">Über</string>
+    <string name="hint_field_new_password">Neues Passwort</string>
+    <string name="hint_field_conf_password">Passwort bestätigen</string>
+    <string name="title_changeMasterPass">Neues Master Password eingeben</string>
+    <string name="title_databaseLocation">Datenbank Dateinamen eingeben:</string>
+    <string name="desc_fileManager">Dateimanager öffnen</string>
+    <string name="butt_open">Öffnen</string>
+    <string name="butt_create">Erstellen</string>
+    <string name="hint_field_password">Passwort</string>
+    <string name="title_note">Titel:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="note_note">Notiz:</string>
+    <string name="hint_field_title">Title</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_edit">Editieren</string>
+    <string name="action_delete">Löschen</string>
+    <string name="toast_success_newNote">Erfolgreich erstellt!</string>
+    <string name="toast_fatalError">FATALER Fehler!</string>
+    <string name="toast_IOError">I/O fehler!</string>
+    <string name="title_password">Passwort eingeben</string>
+    <string name="toast_emptyPassword">Leeres Passwort ist nicht erlaubt</string>
+    <string name="toast_wrongPassword">Falsches Passwort oder korrupierte Datenbank</string>
+    <string name="toast_wrongPath">Fehler beim lesen der Datenbank.\nÜberprüfe ob der Path korrekt ist</string>
+    <string name="toast_errorCreatingDB">Fehler beim erstellen der Datenbank.\nÜberprüfe ob der Path korrekt ist</string>
+    <string name="toast_wrongNewPassword">Passwöter stimmen nicht überein</string>
+    <string name="toast_fieldsNotFilled">Felder nicht korrekt ausgefüllt</string>
+    <string name="dialog_backNoSave">Deine Änderungen werden nicht gespeichert.\nWillst du das Programm sicher schließen?</string>
+    <string name="toast_success_newDB">Datenbank erfolgreich erstellt</string>
+    <string name="toast_success_changePsw">Passwort erfolgreich geändert</string>
+    <string name="action_filter">Filtern nach Notiz / Tag</string>
+    <string name="dialog_deleteNote">Willst du diese Notiz sicher löschen?</string>
+    <string name="title_deleteNote">Notiz löschen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="action_sort">Liste sortieren</string>
+    <string name="toast_sort_alphabet">Alphabetische sortierung</string>
+    <string name="toast_sort_creation">Sortieren nach Erstellungsdatum</string>
+    <string name="toast_success_deleteNote">Erfolgreich gelöscht</string>
+    <string name="dialog_backClose">Willst du die Datenbank wirklich schließen?</string>
+    <string name="title_backClose">Schließen</string>
+    <string name="toast_version">Notecrypt Version</string>
+    <string name="toast_createdBy">\nErstellt von Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Fehler bei der Versionsfindung!</string>
+    <string name="no_notes">Keine Notizen hier.\nDrücke den + Knopf um eine zu erstellen.</string>
+    <string name="no_textNote">Leerer Notiz Text.</string>
+    <string name="toast_errorInvalidKey">Fehler! Password beinhaltet nicht erlaubte zeichen</string>
+    <string name="sure">Sicher</string>
+    <string name="sure_rate">Nun bewerten</string>
+    <string name="later">Vielleicht später</string>
+    <string name="rate">Bewerten</string>
+    <string name="rate_message">Wenn du Note Crypt magst, Währe es gut wenn du die App im Appstore gut bewerten würdest. Vielen Dank.</string>
+    <string name="upgrade_message">Bitte denke darüber nach NoteCrypt Donate/Pro zu kaufen um mir einen kleinen Kaffe zu spenden.\nMit der Pro-Version gibt es auch mehr Features.</string>
+    <string name="action_donate">Spenden</string>
+    <string name="pref_drawer">Animation starten beim App Start</string>
+    <string name="pref_drawer_summ">Zeig die Animation des Filter's auf der rechten Seite an</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_recentDB">Datenbank im standart Ordner:</string>
+    <string name="deleteRecent_message">Datenbank löschen?\nDieser Vorgang ist nicht umkehrbar.</string>
+    <string name="pref_textSize">Schriftgröße der Notizen ändern</string>
+    <string-array name="pref_textSize_entries">
+        <item >Sehr klein</item>
+        <item >Klein</item>
+        <item >Normal</item>
+        <item >Groß</item>
+        <item >Sehr Groß</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Suche</string>
+    <string name="action_starred">Wichtig</string>
+    <string name="action_remove">Entfernen</string>
+    <string name="action_overwrite">Überschreibem</string>
+    <string name="overwrite_message">Datei mit dem Namen existiert, wird nun überschrieben</string>
+    <string name="warning">Warnung</string>
+    <string name="localeWarning">Bitte nutze nur das Lateinische Alphabet und seinen Zeichen sowie Zahlen um Fehler zu vermeiden.</string>
+    <string name="action_share">Teilen</string>
+    <string name="explain_external_permission">Notecrypt benötigt die Berechtigung um auf den Speicher deines Telfeons zu zugreifen. Du kannst deine Entscheidung jederzeit ändern / rückgängig machen, geh dazu in die Systemeinstellung.</string>
+</resources>
