@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Jelszó Megváltoztatása</string>
+    <string name="action_newNote">Új Jegyzet Létrehozása</string>
+    <string name="action_about">Az Alkalmazásról</string>
+    <string name="hint_field_new_password">Új Jelszó</string>
+    <string name="hint_field_conf_password">Jelszó Megerősítése</string>
+    <string name="title_changeMasterPass">Új Mesterjelszó</string>
+    <string name="title_databaseLocation">Az adatbázis fájl neve:</string>
+    <string name="desc_fileManager">Fájlkezelő Megnyitása</string>
+    <string name="butt_open">Megnyitás</string>
+    <string name="butt_create">Létrehoz</string>
+    <string name="hint_field_password">Jelszó</string>
+    <string name="title_note">Cím:</string>
+    <string name="tags_note">Címkék:</string>
+    <string name="note_note">Jegyzet:</string>
+    <string name="hint_field_title">Cím</string>
+    <string name="hint_field_tags">Címke1, Címke2, Címke3&#8230;</string>
+    <string name="action_save">Mentés</string>
+    <string name="action_edit">Szerkesztés</string>
+    <string name="action_delete">Törlés</string>
+    <string name="toast_success_newNote">Sikeresen létrehozva</string>
+    <string name="toast_fatalError">FATÁLIS HIBA!</string>
+    <string name="toast_IOError">I/O Hiba!</string>
+    <string name="title_password">Jelszó Megadása</string>
+    <string name="toast_emptyPassword">Üres Jelszó nem engedélyezett</string>
+    <string name="toast_wrongPassword">Hibás Jelszó vagy rossz adatbázis</string>
+    <string name="toast_wrongPath">Hiba az adatbázis beolvasásánál.\nEllenőrizze az elérési útvonalat</string>
+    <string name="toast_errorCreatingDB">Hiba az adatbázis létrehozásánál.\nEllenőrizze az elérési útvonalat</string>
+    <string name="toast_wrongNewPassword">Jelszó nem egyezik</string>
+    <string name="toast_fieldsNotFilled">Hibásan kitöltött mezők</string>
+    <string name="dialog_backNoSave">A módosítások nem lesznek elmentve.\nBiztosan ki akar lépni?</string>
+    <string name="toast_success_newDB">Adatbázis sikeresen létrehozva</string>
+    <string name="toast_success_changePsw">Jelszó sikeresen megváltoztatva</string>
+    <string name="action_filter">Szűrés címkékre</string>
+    <string name="dialog_deleteNote">Biztosan le akarja törölni ezt a jegyzetet?</string>
+    <string name="title_deleteNote">Jegyzet Törlése</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="action_sort">Lista Rendezése</string>
+    <string name="toast_sort_alphabet">ABC szerint</string>
+    <string name="toast_sort_creation">Létrehozás ideje szerint</string>
+    <string name="toast_success_deleteNote">Sikeresen törölve</string>
+    <string name="dialog_backClose">Biztosan bezárja az adatbázist?</string>
+    <string name="title_backClose">Bezárás</string>
+    <string name="toast_version">Notecrypt verzió</string>
+    <string name="toast_createdBy">\nKészítette Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Hiba a verzió keresésénél!</string>
+    <string name="no_notes">Itt nincsenek jegyzetek.\nNyomja meg a + gombot jegyzet hozzáadásához.</string>
+    <string name="no_textNote">Üres Jegyzet Szöveg.</string>
+    <string name="toast_errorInvalidKey">Hiba! A jelszó valószínűleg nem engedélyezett karaktereket tartalmaz</string>
+    <string name="sure">Biztos</string>
+    <string name="sure_rate">Értékelés most</string>
+    <string name="later">Talán később</string>
+    <string name="rate">Értékelés</string>
+    <string name="rate_message">Ha tetszik önnek a Note Crypt, sokat jelentene ha értékelné az alkalmazást az áruházban. Nagyon szépen köszönöm.</string>
+    <string name="upgrade_message">Kérem gondolja meg, hogy megajándékoz egy kávéval és megveszi a NoteCrypt Donate/Pro változatát.\nEzáltal további funkciók lesznek elérhetőek önnek.</string>
+    <string name="action_donate">Adomány</string>
+    <string name="pref_drawer">Animáció szűrő indításkor</string>
+    <string name="pref_drawer_summ">A szűrő animáció megjelenítése a jobb oldalon</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="title_recentDB">Adatbázis az alapértelmezett mappában (kattintson a megnyitáshoz):</string>
+    <string name="deleteRecent_message">Törli az adatbázist?\nA törlés végleges.</string>
+    <string name="pref_textSize">Jegyzetek betűméretének megváltoztatása</string>
+    <string-array name="pref_textSize_entries">
+        <item >Nagyon kicsi</item>
+        <item >Kicsi</item>
+        <item >Közepes</item>
+        <item >Nagy</item>
+        <item >Nagyon nagy</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Keresés</string>
+    <string name="action_starred">Fontos</string>
+    <string name="action_remove">Eltávolítás</string>
+    <string name="action_overwrite">Felülírás</string>
+    <string name="overwrite_message">Ilyen nevű fájl már létezik, ha folytatja akkor felülírja azt.</string>
+    <string name="warning">Figyelmeztetés</string>
+    <string name="localeWarning">Erősen ajánlott hogy a jelszó csak Latin betűket(A-Z), számokat és szimbólumokat tartalmazzon.</string>
+    <string name="action_share">Megosztás</string>
+    <string name="explain_external_permission">Engedélyeznie kell a Notecrypt alkalmazásnak, hogy hozzáférjen a telefon memóriájához, így tudja tárolni a jegyzeteit. Ha véglegesen megtagadta ezt akkor itt adhat engedélyt az alkalmazásnak Rendszer Beállítások->Alkalmazások->NoteCrypt</string>
+</resources>
