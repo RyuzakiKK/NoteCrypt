@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lapų Saugykla Pro</string>
+    <string name="action_changePassword">Pakeisti slaptažodį</string>
+    <string name="action_newNote">Pridėti naują lapa</string>
+    <string name="action_about">Apie</string>
+    <string name="hint_field_new_password">Naujas slaptažodis</string>
+    <string name="hint_field_conf_password">Pakartoti slaptažodį</string>
+    <string name="title_changeMasterPass">Pridėti naują magistro slaptažodį</string>
+    <string name="title_databaseLocation">Įrašykite duomenų bazes pavadinimą:</string>
+    <string name="desc_fileManager">Atdaryti Failų Naršyklę</string>
+    <string name="butt_open">Atidaryti</string>
+    <string name="butt_create">Sukurti</string>
+    <string name="hint_field_password">Slaptažodis</string>
+    <string name="title_note">Pavadinimas:</string>
+    <string name="tags_note">Žymos:</string>
+    <string name="note_note">Lapas:</string>
+    <string name="hint_field_title">Pavadinimas</string>
+    <string name="hint_field_tags">Žymą1, Žyma2, Žyma3&#8230;</string>
+    <string name="action_save">Išsaugoti</string>
+    <string name="action_edit">Pataisyti</string>
+    <string name="action_delete">Ištrinti</string>
+    <string name="toast_success_newNote">Sekmingai sukurta</string>
+    <string name="toast_fatalError">MIRTINA KLAIDA !</string>
+    <string name="toast_IOError">I/O Klaida!</string>
+    <string name="title_password">Įrašykite slaptažodį</string>
+    <string name="toast_emptyPassword">Tušti slaptažodžiai nera galimi</string>
+    <string name="toast_wrongPassword">Klaidingas slaptažodis arba sugadintą duomenų bazę</string>
+    <string name="toast_wrongPath">Klaida skaitant duomenų bazę .\nPatikrinkite kelio teisingumą</string>
+    <string name="toast_errorCreatingDB">Klaida sukuriant jūsų duomenų bazę.\nPatikrinkite kelio teisingumą</string>
+    <string name="toast_wrongNewPassword">Slaptažodžiai nesutampa</string>
+    <string name="toast_fieldsNotFilled">Laukai nera supildyti</string>
+    <string name="dialog_backNoSave">Jūsų taisymas nebus išsaugotas.\nAr jus tikri kad norite išeiti?</string>
+    <string name="toast_success_newDB">Duomenų bazė sekmingai sukurta.</string>
+    <string name="toast_success_changePsw">Slaptažodis sekmingai pakeistas.</string>
+    <string name="action_filter">Rušuoti pagal žymas</string>
+    <string name="dialog_deleteNote">Are jus tikri esat kad norite ištrinti šį lapą?</string>
+    <string name="title_deleteNote">Ištrinti lapą</string>
+    <string name="yes">Taip</string>
+    <string name="no">Ne</string>
+    <string name="action_sort">Rušiavimo sąrašas</string>
+    <string name="toast_sort_alphabet">Abėcėlės rušiavimas</string>
+    <string name="toast_sort_creation">Sukurimo datos rušiavimas</string>
+    <string name="toast_success_deleteNote">Sekmingai ištrintas jūsų lapas</string>
+    <string name="dialog_backClose">Tikrai išjungti duomenų bazę?</string>
+    <string name="title_backClose">Išjungti</string>
+    <string name="toast_version">Lapų Saugyklos versija.</string>
+    <string name="toast_createdBy">\nSukurta Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Klaida randant versija!</string>
+    <string name="no_notes">Nera jokių lapų čia.\n Spauskite + mygtuką kad pridėtumete lapą.</string>
+    <string name="no_textNote">Tuščio lapo tekstas.</string>
+    <string name="toast_errorInvalidKey">Klaida! Turbūt jūsų įrašytas slaptažodis turi neleistinų inserted simbolių. </string>
+    <string name="sure">Taip</string>
+    <string name="sure_rate">Pabalsuokite dabar</string>
+    <string name="later">Gal vėliau?</string>
+    <string name="rate">Balsuokite</string>
+    <string name="rate_message">Jeigu jum patinką Lapų Saugykla, aš bučiau labai dekingas jūsų balsų Google Play parduotuvėje.Ačiū jums labai!</string>
+    <string name="upgrade_message">Prašau pagalvokite paaukoti kavą pirkdami Lapų Saugykla Donate/Pro versija.\nSu juo gausite daugiau funkcijų.</string>
+    <string name="action_donate">Paaukoti</string>
+    <string name="pref_drawer">Animacijos filteris pradžioje</string>
+    <string name="pref_drawer_summ">Rodyti animaciją filtro stalčiaus kairėje</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="title_recentDB">Duomenų bazė pagrindinime aplankale ir paskutinį kartą panaudoti (Spauskite kad atidaryti):</string>
+    <string name="deleteRecent_message">Ištrinti duomenų bazę?\nŠitas veimas yra nepakeičiamas.</string>
+    <string name="pref_textSize">Pakeisti šriftą jūsų lapų</string>
+    <string-array name="pref_textSize_entries">
+        <item >Labai mažas</item>
+        <item >Mažas</item>
+        <item >Normalus</item>
+        <item >Didelis</item>
+        <item >Labai didelis</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Ieškoti</string>
+    <string name="action_starred">Svarbųs</string>
+    <string name="action_remove">Ištrinti</string>
+    <string name="action_overwrite">Perrašyti</string>
+    <string name="overwrite_message">Failais su tokių pavadinimų jau egzistuoja, jei jus testite tai jis bus perrašytas.</string>
+    <string name="warning">Warning</string>
+    <string name="localeWarning">Rekomenduojama naudoti slaptažodio simbolius tik pagal Lotynų abėcėlę (A-Z) ir skaičius.</string>
+    <string name="action_share">Pasidalinti</string>
+    <string name="explain_external_permission">Lapų Saugyklai reikės prašymo skaityti ir rašyti į telefono atmintį kad laikyti jūsų lapus. Jei jus visam laikui at atsisakete, tai jus galite leisti atidarydami jūsų System Settings->Apps->NoteCrypt</string>
+</resources>
