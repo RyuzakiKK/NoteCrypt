@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Skift Kodeord</string>
+    <string name="action_newNote">Tilføj Ny Note</string>
+    <string name="action_about">Om Note Crypt Pro</string>
+    <string name="hint_field_new_password">Nyt Kodeord</string>
+    <string name="hint_field_conf_password">Bekræft Kodeord</string>
+    <string name="title_changeMasterPass">Indtast Nyt Master Kodeord</string>
+    <string name="title_databaseLocation">Indtast database filnavn:</string>
+    <string name="desc_fileManager">Åben Fil System</string>
+    <string name="butt_open">Åben</string>
+    <string name="butt_create">Opret</string>
+    <string name="hint_field_password">Kodeord</string>
+    <string name="title_note">Titel:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="note_note">Note:</string>
+    <string name="hint_field_title">Titel</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Gem</string>
+    <string name="action_edit">Ændr</string>
+    <string name="action_delete">Slet</string>
+    <string name="toast_success_newNote">Succesfuldt oprettet</string>
+    <string name="toast_fatalError">FATAL FEJL!</string>
+    <string name="toast_IOError">I/O Fejl!</string>
+    <string name="title_password">Indtast kodeord</string>
+    <string name="toast_emptyPassword">Tomt Kodeord ikke tilladt</string>
+    <string name="toast_wrongPassword">Forkert Kodeord eller corrupted database</string>
+    <string name="toast_wrongPath">Fejl ved læsning af databasen.\nCheck om stien er korrekt</string>
+    <string name="toast_errorCreatingDB">Fejl ved oprettelsen af db.\nCheck om stien er korrekt</string>
+    <string name="toast_wrongNewPassword">Kodeordene er ikke ens</string>
+    <string name="toast_fieldsNotFilled">Felterne er ikke udfyldt korrekt</string>
+    <string name="dialog_backNoSave">Dine ændringer vil ikke blive gemt.\nEr du sikker på du vil lukke?</string>
+    <string name="toast_success_newDB">Database succesfuldt oprettet</string>
+    <string name="toast_success_changePsw">Kodeord succesfuldt ændret</string>
+    <string name="action_filter">Filtrer på Tag</string>
+    <string name="dialog_deleteNote">Er du sikker på at du vil slette denne note?</string>
+    <string name="title_deleteNote">Slet Note</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="action_sort">Sorter Liste</string>
+    <string name="toast_sort_alphabet">Alfabetisk orden</string>
+    <string name="toast_sort_creation">Oprettelse orden</string>
+    <string name="toast_success_deleteNote">Succesfuldt slettet</string>
+    <string name="dialog_backClose">Er du sikker på du vil lukke databasen?</string>
+    <string name="title_backClose">Luk</string>
+    <string name="toast_version">Notecrypt version</string>
+    <string name="toast_createdBy">\nLavet af Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Fejl ved at finde version!</string>
+    <string name="no_notes">Ingen noter her.\nTryk på + knappen for at tilføje en note.</string>
+    <string name="no_textNote">Tom Note Tekst.</string>
+    <string name="toast_errorInvalidKey">Fejl! Der er sikkert nogle ikke tilladte karakterer i kodeordet</string>
+    <string name="sure">Okay</string>
+    <string name="sure_rate">Bedøm nu</string>
+    <string name="later">Måske senere</string>
+    <string name="rate">Bedøm</string>
+    <string name="rate_message">Hvis du nyder Note Crypt, ville jeg sætte stor pris på din app rating i Google Play. Mange tak.</string>
+    <string name="upgrade_message">Ovevej venligst at donere en kop kaffe til mig ved at købe NoteCrypt Donate/Pro version.\nMed den vil du også modtage yderligere funktioner.</string>
+    <string name="action_donate">Doner</string>
+    <string name="pref_drawer">Animation filter ved start</string>
+    <string name="pref_drawer_summ">Vis animation af filter siden til højre</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="title_recentDB">Database standard mappen og nylige (klik for at åbne):</string>
+    <string name="deleteRecent_message">Slet databasen?\nDenne handling kan ikke fortrydes.</string>
+    <string name="pref_textSize">Ændr skriftstørrelsen for notes</string>
+    <string-array name="pref_textSize_entries">
+        <item >Meget lille</item>
+        <item >Lille</item>
+        <item >Normal</item>
+        <item >Stor</item>
+        <item >Meget Stor</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Søg</string>
+    <string name="action_starred">Vigtigt</string>
+    <string name="action_remove">Fjern</string>
+    <string name="action_overwrite">Overskriv</string>
+    <string name="overwrite_message">En fil med dette navn eksisterer allerede, hvis du fortsætter vil den blive overskrevet.</string>
+    <string name="warning">Advarsel</string>
+    <string name="localeWarning">Det er kraftigt anbefalet at bruge et kodeord kun med det latinske alfabet (A-Z), tal and og symboler.</string>
+    <string name="action_share">Del</string>
+    <string name="explain_external_permission">Notecrypt har brug for tilladelse til at skrive og læse til telefonens hukommelse for at gemme dine noter. Hvis du har permanent nægtet det, kan du give denne tilladelse ved at åbne Systemindstillinger->Apps->NoteCrypt</string>
+</resources>
