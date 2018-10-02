@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Změnit Heslo</string>
+    <string name="action_newNote">Přidat Novou Poznámku</string>
+    <string name="action_about">O Aplikaci</string>
+    <string name="hint_field_new_password">Nové heslo</string>
+    <string name="hint_field_conf_password">Potvrďte heslo</string>
+    <string name="title_changeMasterPass">Zadejte Nové hlavní heslo</string>
+    <string name="title_databaseLocation">Zdejte jméno souboru databáze:</string>
+    <string name="desc_fileManager">Otevřít Správce Souborů</string>
+    <string name="butt_open">Otevřít</string>
+    <string name="butt_create">Vytvořit</string>
+    <string name="hint_field_password">Heslo</string>
+    <string name="title_note">Název:</string>
+    <string name="tags_note">Tagy:</string>
+    <string name="note_note">Poznámka:</string>
+    <string name="hint_field_title">Název</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Uložit</string>
+    <string name="action_edit">Upravit</string>
+    <string name="action_delete">Smazat</string>
+    <string name="toast_success_newNote">Úspěšně vytvořeno</string>
+    <string name="toast_fatalError">FATÁLNÍ CHYBA!</string>
+    <string name="toast_IOError">I/O Chyba!</string>
+    <string name="title_password">Vložte heslo</string>
+    <string name="toast_emptyPassword">Prázdné heslo není povoleno</string>
+    <string name="toast_wrongPassword">Špatné heslo nebo poškozená databáze</string>
+    <string name="toast_wrongPath">Chyba při čtení databáze.\nZkontrolujte správnost cesty</string>
+    <string name="toast_errorCreatingDB">Chyba při vytváření databáze.\nZkontrolujte správnost cesty</string>
+    <string name="toast_wrongNewPassword">Hesla se neshodují</string>
+    <string name="toast_fieldsNotFilled">Pole nejsou správně vyplněna</string>
+    <string name="dialog_backNoSave">Vaše úpravy nebudou uloženy.\nChcete zkončit bez uložení?</string>
+    <string name="toast_success_newDB">Databáze byla úspěšně vytvořena</string>
+    <string name="toast_success_changePsw">Heslo bylo úspěšně změněno</string>
+    <string name="action_filter">Seřadit podle Tagu</string>
+    <string name="dialog_deleteNote">Chcete určitě odstranit tuto poznámku?</string>
+    <string name="title_deleteNote">Odstranit Poznámku</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="action_sort">Seřadit Seznam</string>
+    <string name="toast_sort_alphabet">Seřazeno abecedně</string>
+    <string name="toast_sort_creation">Seřazeno podle datumu vzniku</string>
+    <string name="toast_success_deleteNote">Úspěšně smazáno</string>
+    <string name="dialog_backClose">Určitě chcete zavřít databázi?</string>
+    <string name="title_backClose">Zavřít</string>
+    <string name="toast_version">Notecrypt verze</string>
+    <string name="toast_createdBy">\nVytvořil Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Chyba při zjišťování verze!</string>
+    <string name="no_notes">Nejsou zde žádné poznámky.\nKlikněte na + pro přidání nové poznámky.</string>
+    <string name="no_textNote">Prázdný Text Poznámky.</string>
+    <string name="toast_errorInvalidKey">Chyba! Vložené Heslo pravděpodobně obsahuje nějaké nepovolené znaky</string>
+    <string name="sure">Určitě</string>
+    <string name="sure_rate">Ohodnotit nyní</string>
+    <string name="later">Možná později</string>
+    <string name="rate">Ohodnotit</string>
+    <string name="rate_message">Pokud se vám líbí Note Crypt, tak bych ocenil vaše hodnocení v obchodě. Děkuji mnohokrát.</string>
+    <string name="upgrade_message">Prosím zvažte darování kávy koupí NoteCrypt Donate/Pro verzi.\nNavíc získáte další funkce.</string>
+    <string name="action_donate">Přispět</string>
+    <string name="pref_drawer">Animovaný filtr při startu</string>
+    <string name="pref_drawer_summ">Zobrazit animaci vykreslení filtru vpravo</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="title_recentDB">Databáze ve výchozí složce a poslední (kliněte pro otevření):</string>
+    <string name="deleteRecent_message">Chcete smazat databázi?\nTato akce je nevratná.</string>
+    <string name="pref_textSize">Změnit velikost fontu poznámek</string>
+    <string-array name="pref_textSize_entries">
+        <item >Velmi malý</item>
+        <item >Malý</item>
+        <item >Normální</item>
+        <item >Velký</item>
+        <item >Velmi Velký</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Hledat</string>
+    <string name="action_starred">Důležité</string>
+    <string name="action_remove">Odstranit</string>
+    <string name="action_overwrite">Přepsat</string>
+    <string name="overwrite_message">Soubor s tímto názvem již existuje, pokud budete pokračovat, tak bude přepsán.</string>
+    <string name="warning">Upozornění</string>
+    <string name="localeWarning">Je velmi doporučeno v hesle používat jenom znaky z latinky (A-Z), čísla and symboly.</string>
+    <string name="action_share">Sdílet</string>
+    <string name="explain_external_permission">Notecrypt potřebuje oprávnění pro čtení a zápis do paměti telefonu na uložení vašich poznámek. Pokud jste trvale zakázali tohle oprávnění, tak ho můžete přidat když otevřete Systemové Nastavení->Aplikace->NoteCrypt</string>
+</resources>
