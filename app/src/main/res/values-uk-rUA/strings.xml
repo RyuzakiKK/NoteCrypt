@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Змінити пароль</string>
+    <string name="action_newNote">Додати нову нотатку</string>
+    <string name="action_about">Про</string>
+    <string name="hint_field_new_password">Новий пароль</string>
+    <string name="hint_field_conf_password">Підтвердити пароль</string>
+    <string name="title_changeMasterPass">Введіть новий Майстер пароль</string>
+    <string name="title_databaseLocation">Введіть назву бази даних:</string>
+    <string name="desc_fileManager">Відкрити Менеджер Файлів</string>
+    <string name="butt_open">Відкрити</string>
+    <string name="butt_create">Створити</string>
+    <string name="hint_field_password">Пароль</string>
+    <string name="title_note">Заголовок:</string>
+    <string name="tags_note">Теги:</string>
+    <string name="note_note">Нотатка:</string>
+    <string name="hint_field_title">Заголовок</string>
+    <string name="hint_field_tags">Тег1, Тег2, Тег3&#8230;</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="action_delete">Видалити</string>
+    <string name="toast_success_newNote">Успішно створено</string>
+    <string name="toast_fatalError">ФАТАЛЬНА ПОМИЛКА!</string>
+    <string name="toast_IOError">I/O Error!</string>
+    <string name="title_password">Введіть пароль</string>
+    <string name="toast_emptyPassword">Порожній пароль не дозволений</string>
+    <string name="toast_wrongPassword">Неправильний пароль або пошкоджена база даних</string>
+    <string name="toast_wrongPath">Помилка при спробі прочитати базу даних.\nПеревірте коректність заданого шляху</string>
+    <string name="toast_errorCreatingDB">Помилка при створенні бази даних.\nПеревірте коректність заданого шляху</string>
+    <string name="toast_wrongNewPassword">Пароль не співпадає</string>
+    <string name="toast_fieldsNotFilled">Поля заповнені некоректно</string>
+    <string name="dialog_backNoSave">Ваші зміни не будуть збережені.\nВи впевненні, що хочете закрити?</string>
+    <string name="toast_success_newDB">База даних успішно створена</string>
+    <string name="toast_success_changePsw">Пароль успішно змінено</string>
+    <string name="action_filter">Фільтрувати за Тегом</string>
+    <string name="dialog_deleteNote">Ви впевнені, що хочете видалити цю нотатку?</string>
+    <string name="title_deleteNote">Видалити нотатку</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="action_sort">Сортувати список</string>
+    <string name="toast_sort_alphabet">Сортування за алфавітом</string>
+    <string name="toast_sort_creation">Сортування за датою створення</string>
+    <string name="toast_success_deleteNote">Успішно видалено</string>
+    <string name="dialog_backClose">Дійсно закрити базу даних?</string>
+    <string name="title_backClose">Закрити</string>
+    <string name="toast_version">Notecrypt версія</string>
+    <string name="toast_createdBy">\nСтворено: Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Помилка при пошуку версії!</string>
+    <string name="no_notes">Нотатки відсутні.\nНатисніть кнопку + щоб додати нотатку.</string>
+    <string name="no_textNote">Порожня нотатка.</string>
+    <string name="toast_errorInvalidKey">Помилка! Можливо введений пароль містить недозволені символи</string>
+    <string name="sure">Звичайно</string>
+    <string name="sure_rate">Оцінити зараз</string>
+    <string name="later">Можливо пізніше</string>
+    <string name="rate">Оцінити</string>
+    <string name="rate_message">Якщо Ви задоволені Note Crypt, я буду дуже вдячний якщо Ви оціните мобільний додаток. Дуже дякую!</string>
+    <string name="upgrade_message">Будь ласка не соромтесь спонсорувати мені каву при купівлі NoteCrypt Donate/Pro версій.\nРазом з тим ви отримаєте додаткові функції.</string>
+    <string name="action_donate">Внести пожертву</string>
+    <string name="pref_drawer">Анімаційний фільтр на початок</string>
+    <string name="pref_drawer_summ">Показати анімацію контейнера з фільтром праворуч</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="title_recentDB">База даних в папці за замовчуванням і нещодавна (натисніть щоб відкрити):</string>
+    <string name="deleteRecent_message">Видалити базу даних?\nЦя дія незворотня.</string>
+    <string name="pref_textSize">Змінити розмір шрифту для нотаток</string>
+    <string-array name="pref_textSize_entries">
+        <item >Дуже маленький</item>
+        <item >Маленький</item>
+        <item >Нормальний</item>
+        <item >Великий</item>
+        <item >Дуже великий</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Пошук</string>
+    <string name="action_starred">Важливо</string>
+    <string name="action_remove">Видалити</string>
+    <string name="action_overwrite">Перезаписати</string>
+    <string name="overwrite_message">Файл з цим ім'ям вже існує, якщо Ви продовжите він буде перезаписаний.</string>
+    <string name="warning">Попередження</string>
+    <string name="localeWarning">Рекомендуємо використовувати для паролю букви лише латинського алфавіту (A-Z), числа та символи.</string>
+    <string name="action_share">Поширити</string>
+    <string name="explain_external_permission">Notecrypt потребує дозволу на читання та запис в память телефону для збереження нотаток. Якщо Ви відмовитесь зараз, Ви зможете надати ці права, якщо відкриєте System Settings->Apps->NoteCrypt</string>
+</resources>
