@@ -85,7 +85,7 @@
     <string name="action_overwrite">Overwrite</string>
     <string name="overwrite_message">A file with this name already exist, if you continue it will be overwritten.</string>
     <string name="warning">Warning</string>
-    <string name="localeWarning">It\'s high recommended to use as password only the Latin alphabet (A-Z), numbers and symbols.</string>
+    <string name="localeWarning">It\'s highly recommended to use as password only the Latin alphabet (A-Z), numbers and symbols.</string>
     <string name="action_share">Share</string>
     <string name="explain_external_permission">Notecrypt needs permission to read and write to the phone memory for store your notes. If you permanently denied it you can grant this permission opening your System Settings->Apps->NoteCrypt</string>
 </resources>
