@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Құпиясөзді өзгерту</string>
+    <string name="action_newNote">Жаңа ескерту қосу</string>
+    <string name="action_about">Қосымша туралы</string>
+    <string name="hint_field_new_password">Жаңа құпиясөз</string>
+    <string name="hint_field_conf_password">Құпия сөзді растау</string>
+    <string name="title_changeMasterPass">Жаңа басты құпия сөзді енгізіңіз</string>
+    <string name="title_databaseLocation">Дерекқор файлының атын енгізіңіз:</string>
+    <string name="desc_fileManager">Файл менеджерін ашу</string>
+    <string name="butt_open">Ашу</string>
+    <string name="butt_create">Қосу</string>
+    <string name="hint_field_password">Құпиясөз</string>
+    <string name="title_note">Атауы:</string>
+    <string name="tags_note">Тегтер:</string>
+    <string name="note_note">Ескерту:</string>
+    <string name="hint_field_title">Атауы</string>
+    <string name="hint_field_tags"> Тег1, Тег2, Тег3&#8230;</string>
+    <string name="action_save">Сақтау</string>
+    <string name="action_edit">Өзгерту</string>
+    <string name="action_delete">Жою</string>
+    <string name="toast_success_newNote">Сәтті сақталған</string>
+    <string name="toast_fatalError">ҚАУІПТІ ҚАТЕ!</string>
+    <string name="toast_IOError">I/O қатесі!</string>
+    <string name="title_password">Құпия сөзді қою</string>
+    <string name="toast_emptyPassword">Бос құпиясөз болмайды</string>
+    <string name="toast_wrongPassword">Жарамсыз пароль немесе бүлінген дерекқор</string>
+    <string name="toast_wrongPath">Дерекқорды оқу қатесі. \ nЖолдың дұрыстығын тексеріңіз</string>
+    <string name="toast_errorCreatingDB">db қосу қатесі. \ nЖолдың дұрыстығын тексеріңіз </string>
+    <string name="toast_wrongNewPassword">Құпия сөздер сәйкес емес</string>
+    <string name="toast_fieldsNotFilled">Өрістер дұрыс толтырылмаған</string>
+    <string name="dialog_backNoSave">Сіздің өзгертулеріңіз сақталмайды. \ n Шығуды қалайсыз ба?</string>
+    <string name="toast_success_newDB">Дерекқор сәтті жасалған</string>
+    <string name="toast_success_changePsw">Құпия сөз сәтті өзгертілді</string>
+    <string name="action_filter">Тег бойынша сүзу</string>
+    <string name="dialog_deleteNote">Осы ескертуді жойғыңыз келе ме?</string>
+    <string name="title_deleteNote">Ескертуді жою</string>
+    <string name="yes">Иә</string>
+    <string name="no">Жоқ</string>
+    <string name="action_sort">Тізімді сұрыптау</string>
+    <string name="toast_sort_alphabet">Әліпби бойынша сұрыптау</string>
+    <string name="toast_sort_creation">Сұрыптауды қосу</string>
+    <string name="toast_success_deleteNote">Сәтті жойылған</string>
+    <string name="dialog_backClose">Дерекқорды шынымен жабу керек пе?</string>
+    <string name="title_backClose">Жабу</string>
+    <string name="toast_version">Notecrypt нұсқасы</string>
+    <string name="toast_createdBy">\nLudovico de Nittis жасалған</string>
+    <string name="toast_errorVersion">Нұсқа іздеу қатесі!</string>
+    <string name="no_notes">Ескертпелер жоқ. \ n Жазбаны қосу үшін + түймесін басыңыз.</string>
+    <string name="no_textNote">Бос мәтіндік ескерту.</string>
+    <string name="toast_errorInvalidKey">Қате! Кірістірілген құпия сөзде кейбір жарамсыз таңбалар болуы мүмкін</string>
+    <string name="sure">Әлбетте</string>
+    <string name="sure_rate">Қазір бағалау</string>
+    <string name="later">Кейінірек</string>
+    <string name="rate">Бағалау</string>
+    <string name="rate_message">Егер Сізге Note Crypt ұнаса, сторға кіріп, қосымшаны бағалаңыз. Үлкен рахмет.</string>
+    <string name="upgrade_message">NotesCrypt Donate / Pro нұсқасын сатып алу арқылы маған кофе беруді қарастырып көріңіз. \ nОсы жерде сіз қосымша мүмкіндіктер аласыз.</string>
+    <string name="action_donate">Ақшамен көмектесу</string>
+    <string name="pref_drawer">Старт кезінде анимация сүзгісі </string>
+    <string name="pref_drawer_summ">Сүзгі терезесінің анимациясын оң жақта көрсету</string>
+    <string name="action_settings">Параметрлер</string>
+    <string name="title_recentDB">Дерекқор әдепкі қалтада және соңғы (ашу үшін басыңыз):</string>
+    <string name="deleteRecent_message">Дерекқорды жою керек пе? \ nБұл әрекет кері қайтарылмайды.</string>
+    <string name="pref_textSize">Жазбалар үшін қаріп өлшемін өзгерту</string>
+    <string-array name="pref_textSize_entries">
+        <item> Өте кішкентай </ item>
+        <item> Шағын </ item>
+        <item> Қалыпты </ item>
+        <item> Үлкен </ item>
+        <item> Өте үлкен </ item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Іздеу</string>
+    <string name="action_starred">Маңызды</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_overwrite">Қайта жазылу</string>
+    <string name="overwrite_message">Бұл атау бар файл бар, егер жалғасаңыз, ол қайта жазылады.</string>
+    <string name="warning">Ескерту</string>
+    <string name="localeWarning">Құпия сөз ретінде тек латын алфавитін (A-Z), сандарды және таңбаларды пайдалану ұсынылады. </string>
+    <string name="action_share">Ортақтасу</string>
+    <string name="explain_external_permission">Notecrypt жазбаларды сақтау үшін телефонға оқу және жазу үшін рұқсат қажет. Егер сіз оны біржола жоққа шығарсаңыз, бұл жүйенің параметрлерін -> Apps-> NoteCrypt ашу арқылы осы рұқсатты бере аласыз</string>
+</resources>
