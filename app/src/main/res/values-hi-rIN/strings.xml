@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">पासवर्ड बदलें</string>
+    <string name="action_newNote">नया नोट डालें</string>
+    <string name="action_about">के बारे में</string>
+    <string name="hint_field_new_password">नया पासवर्ड</string>
+    <string name="hint_field_conf_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="title_changeMasterPass">नया मास्टर पासवर्ड दर्ज करें</string>
+    <string name="title_databaseLocation">डेटाबेस फ़ाइल नाम दर्ज करें:</string>
+    <string name="desc_fileManager">फाइल मैनेजर खोलें</string>
+    <string name="butt_open">खोलें</string>
+    <string name="butt_create">बनाए</string>
+    <string name="hint_field_password">पासवर्ड</string>
+    <string name="title_note">शीर्षक:</string>
+    <string name="tags_note">टैग्स:</string>
+    <string name="note_note">नोट:</string>
+    <string name="hint_field_title">शीर्षक</string>
+    <string name="hint_field_tags">टैग1, टैग2, टैग3&#8230;</string>
+    <string name="action_save">सेव</string>
+    <string name="action_edit">संपादित करें</string>
+    <string name="action_delete">मिटाएं</string>
+    <string name="toast_success_newNote">सफलतापूर्वक बनाये गए</string>
+    <string name="toast_fatalError">घातक त्रुटि!</string>
+    <string name="toast_IOError">अइ/ओ त्रुटि!</string>
+    <string name="title_password">पासवर्ड डालें</string>
+    <string name="toast_emptyPassword">खाली पासवर्ड की अनुमति नहीं है</string>
+    <string name="toast_wrongPassword">गलत पासवर्ड या दूषित डेटाबेस</string>
+    <string name="toast_wrongPath">डेटाबेस पढ़ने में त्रुटि।\nपथ की शुद्धता की जांच करें</string>
+    <string name="toast_errorCreatingDB">डेटाबेस बनाने में त्रुटि।\nपथ की शुद्धता की जांच करें</string>
+    <string name="toast_wrongNewPassword">पासवर्ड मेल नहीं खाते</string>
+    <string name="toast_fieldsNotFilled">फ़ील्ड सही ढंग से भरे नहीं हैं</string>
+    <string name="dialog_backNoSave">आपके संपादन सहेज नहीं होंगे।\nक्या आप वाकई बाहर निकलना चाहते हैं?</string>
+    <string name="toast_success_newDB">डेटाबेस सफलतापूर्वक बनाये गए</string>
+    <string name="toast_success_changePsw">पासवर्ड सफलतापूर्वक बदल दिया है</string>
+    <string name="action_filter">टैग द्वारा फ़िल्टर करें</string>
+    <string name="dialog_deleteNote">क्या आप पक्का इस नोट को मिटाना चाहते हैं?</string>
+    <string name="title_deleteNote">नोट मिटाएं</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="action_sort">सूची क्रमबद्ध करें</string>
+    <string name="toast_sort_alphabet">वर्णमाला क्रमबद्ध करें</string>
+    <string name="toast_sort_creation">निर्माण क्रमबद्ध करें</string>
+    <string name="toast_success_deleteNote">सफलतापूर्वक मिटाये गए</string>
+    <string name="dialog_backClose">वाकई में डेटाबेस बंद करें?</string>
+    <string name="title_backClose">बंद करें</string>
+    <string name="toast_version">Notecrypt version</string>
+    <string name="toast_createdBy">\nलुडोविको द निटिस द्वारा बनाये गए</string>
+    <string name="toast_errorVersion">वर्शन खोजने में त्रुटि!</string>
+    <string name="no_notes">यहां कोई नोट नहीं है।\nनोट जुटाने के लिए + बटन दबाएं।</string>
+    <string name="no_textNote">खाली नोट टेक्स्ट।</string>
+    <string name="toast_errorInvalidKey">त्रुटि! शायद डाला गया पासवर्ड में कुछ वर्णों की अनुमति नहीं है</string>
+    <string name="sure">ज़रूर</string>
+    <string name="sure_rate">अब रेट करें</string>
+    <string name="later">शायद बाद में</string>
+    <string name="rate">रेट</string>
+    <string name="rate_message">यदि आप Note Crypt का आनंद लेते हैं, तो मैं स्टोर में आपकी ऐप रेटिंग की सराहना करता हूं। आपका बहुत बहुत धन्यवाद।</string>
+    <string name="upgrade_message">कृपया NoteCrypt दान/प्रो वर्शन खरीदकर मुझे कॉफी दान करने पर विचार करें।\nइसके साथ आपको अतिरिक्त सुविधाएं भी मिलेंगी।</string>
+    <string name="action_donate">दान करे</string>
+    <string name="pref_drawer">शुरुआत पर एनीमेशन फिल्टर</string>
+    <string name="pref_drawer_summ">फिल्टर ड्रॉवर की एनीमेशन दाईं ओर प्रदर्शित करें</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_recentDB">डिफॉल्ट फोल्डर और रीसेंट में डेटाबेस (खोलने के लिए क्लिक करें):</string>
+    <string name="deleteRecent_message">डेटाबेस मिटाएं?\nयह क्रिया अपरिवर्तनीय है।</string>
+    <string name="pref_textSize">नोट्स के लिए फ़ॉन्ट का आकार बदलें</string>
+    <string-array name="pref_textSize_entries">
+        <item >बहुत छोटा</item>
+        <item >छोटा</item>
+        <item >साधारण</item>
+        <item >बड़ा</item>
+        <item >बहुत बड़ा</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">खोज</string>
+    <string name="action_starred">जरूरी</string>
+    <string name="action_remove">हटाएँ</string>
+    <string name="action_overwrite">ओवरराइट करें</string>
+    <string name="overwrite_message">इस नाम वाली एक फाइल पहले से मौजूद है, अगर आप जारी रखते हैं तो इसे ओवरराइट किया जाएगा।</string>
+    <string name="warning">चेतावनी</string>
+    <string name="localeWarning">पासवर्ड के लिए केवल लैटिन वर्णमाला (A-Z), संख्याओं और प्रतीकों का उपयोग करने की अत्यधिक अनुशंसा की जाती है</string>
+    <string name="action_share">शेयर</string>
+    <string name="explain_external_permission">Notecrypt को आपके नोट्स को स्टोर करने के लिए फ़ोन मेमोरी को पढ़ने और लिखने की अनुमति की आवश्यकता है। यदि आपने इसे स्थायी रूप से अस्वीकार कर दिया है, तो आप अपनी सिस्टम सेटिंग्स-> ऐप्स-> NoteCrypt खोलकर यह अनुमति दे सकते हैं</string>
+</resources>
