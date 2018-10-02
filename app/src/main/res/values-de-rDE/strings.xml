@@ -59,7 +59,7 @@
     <string name="upgrade_message">Bitte denke darüber nach NoteCrypt Donate/Pro zu kaufen um mir einen kleinen Kaffe zu spenden.\nMit der Pro-Version gibt es auch mehr Features.</string>
     <string name="action_donate">Spenden</string>
     <string name="pref_drawer">Animation starten beim App Start</string>
-    <string name="pref_drawer_summ">Zeig die Animation des Filter's auf der rechten Seite an</string>
+    <string name="pref_drawer_summ">Zeig die Animation des Filter\'s auf der rechten Seite an</string>
     <string name="action_settings">Einstellungen</string>
     <string name="title_recentDB">Datenbank im standart Ordner:</string>
     <string name="deleteRecent_message">Datenbank löschen?\nDieser Vorgang ist nicht umkehrbar.</string>

@@ -83,7 +83,7 @@
     <string name="action_starred">Важливо</string>
     <string name="action_remove">Видалити</string>
     <string name="action_overwrite">Перезаписати</string>
-    <string name="overwrite_message">Файл з цим ім'ям вже існує, якщо Ви продовжите він буде перезаписаний.</string>
+    <string name="overwrite_message">Файл з цим ім\'ям вже існує, якщо Ви продовжите він буде перезаписаний.</string>
     <string name="warning">Попередження</string>
     <string name="localeWarning">Рекомендуємо використовувати для паролю букви лише латинського алфавіту (A-Z), числа та символи.</string>
     <string name="action_share">Поширити</string>
