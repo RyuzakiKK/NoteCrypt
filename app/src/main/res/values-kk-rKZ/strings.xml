@@ -65,18 +65,18 @@
     <string name="deleteRecent_message">Дерекқорды жою керек пе? \ nБұл әрекет кері қайтарылмайды.</string>
     <string name="pref_textSize">Жазбалар үшін қаріп өлшемін өзгерту</string>
     <string-array name="pref_textSize_entries">
-        <item> Өте кішкентай </ item>
-        <item> Шағын </ item>
-        <item> Қалыпты </ item>
-        <item> Үлкен </ item>
-        <item> Өте үлкен </ item>
+        <item>Өте кішкентай</item>
+        <item>Шағын</item>
+        <item>Қалыпты</item>
+        <item>Үлкен</item>
+        <item>Өте үлкен</item>
     </string-array>
     <string-array name="pref_textSize_values">
-        <item >15</item>
-        <item >18</item>
-        <item >20</item>
-        <item >22</item>
-        <item >25</item>
+        <item>15</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
     </string-array>
     <string name="pref_textSize_default">20</string>
     <string name="action_search">Іздеу</string>
