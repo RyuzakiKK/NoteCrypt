@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Đổi Mật khẩu</string>
+    <string name="action_newNote">Thêm Ghi chú</string>
+    <string name="action_about">Thông tin</string>
+    <string name="hint_field_new_password">Mật khẩu mới</string>
+    <string name="hint_field_conf_password">Xác nhận Mật khẩu</string>
+    <string name="title_changeMasterPass">Nhập mật khẩu Master mới</string>
+    <string name="title_databaseLocation">Nhập tên file cơ sở dữ liệu:</string>
+    <string name="desc_fileManager">Mở Trình quản lí File</string>
+    <string name="butt_open">Mở</string>
+    <string name="butt_create">Tạo</string>
+    <string name="hint_field_password">Mật khẩu</string>
+    <string name="title_note">Tiêu đề:</string>
+    <string name="tags_note">Nhãn:</string>
+    <string name="note_note">Ghi chú:</string>
+    <string name="hint_field_title">Tiêu đề</string>
+    <string name="hint_field_tags">Nhãn1, Nhãn2, Nhãn3&#8230;</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_edit">Sửa</string>
+    <string name="action_delete">Xóa</string>
+    <string name="toast_success_newNote">Ghi chú đã được tạo</string>
+    <string name="toast_fatalError">LỖI!</string>
+    <string name="toast_IOError">Lỗi I/O!</string>
+    <string name="title_password">Nhập Mật khẩu</string>
+    <string name="toast_emptyPassword">Mật khẩu không được để trống</string>
+    <string name="toast_wrongPassword">Mật khẩu sai hoặc cơ sở dữ liệu bị hỏng</string>
+    <string name="toast_wrongPath">Không thể đọc cơ sở dữ liệu.\nVui lòng kiểm tra lại đường dẫn của file</string>
+    <string name="toast_errorCreatingDB">Không thể tạo cơ sở dữ liệu.\nVui lòng kiểm tra lại đường dẫn của file</string>
+    <string name="toast_wrongNewPassword">Mật khẩu không trùng khớp</string>
+    <string name="toast_fieldsNotFilled">Nhập sai trường</string>
+    <string name="dialog_backNoSave">Các thay đổi của bạn sẽ không được lưu.\nBạn có muốn thoát?</string>
+    <string name="toast_success_newDB">Cơ sở dữ liệu đã được tạo</string>
+    <string name="toast_success_changePsw">Mật khẩu đã được thay đổi</string>
+    <string name="action_filter">Lọc với Nhãn</string>
+    <string name="dialog_deleteNote">Bạn có muốn xóa Ghi chú này?</string>
+    <string name="title_deleteNote">Xóa Ghi chú</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="action_sort">Sắp xếp Danh sách</string>
+    <string name="toast_sort_alphabet">Sắp xếp theo chữ cái</string>
+    <string name="toast_sort_creation">Sắp xếp theo thời gian</string>
+    <string name="toast_success_deleteNote">Ghi chú đã bị xóa</string>
+    <string name="dialog_backClose">Đóng cơ sở dữ liệu?</string>
+    <string name="title_backClose">Đóng</string>
+    <string name="toast_version">Phiên bản Notecrypt</string>
+    <string name="toast_createdBy">\nTạo bởi Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Không thể tìm ra phiên bản!</string>
+    <string name="no_notes">Chưa có Ghi chú nào.\nNhấn nút + để thêm ghi chú.</string>
+    <string name="no_textNote">Ghi chú đang trống.</string>
+    <string name="toast_errorInvalidKey">Lỗi! Có lẽ mật khẩu chứa kí tự không cho phép</string>
+    <string name="sure">Sure</string>
+    <string name="sure_rate">Đánh giá ngay</string>
+    <string name="later">Nhắc tôi sau</string>
+    <string name="rate">Đánh giá</string>
+    <string name="rate_message">Nếu bạn thích Note Crypt, hãy đánh giá ứng dụng. Cảm ơn bạn rất nhiều.</string>
+    <string name="upgrade_message">Tặng tớ một cốc cà phê bằng cách mua phiên bản NoteCrypt Donate/Pro.\nBạn sẽ được trải nghiệm thêm nhiều tính năng mới.</string>
+    <string name="action_donate">Ủng hộ</string>
+    <string name="pref_drawer">Hoạt ảnh Lọc khi khởi động</string>
+    <string name="pref_drawer_summ">Hiển thị hoạt ảnh của Lọc ở bên phải</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="title_recentDB">Cơ sở dữ liệu ở Thư mục Mặc định và Gần đây (chạm để mở):</string>
+    <string name="deleteRecent_message">Xóa cơ sở dữ liệu?\nHành động này không thể hoàn tác.</string>
+    <string name="pref_textSize">Thay đổi kích cỡ font chữ</string>
+    <string-array name="pref_textSize_entries">
+        <item >Rất nhỏ</item>
+        <item >Nhỏ</item>
+        <item >Bình thường</item>
+        <item >Lớn</item>
+        <item >Rất lớn</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_starred">Quan trọng</string>
+    <string name="action_remove">Xóa</string>
+    <string name="action_overwrite"Ghi đè</string>
+    <string name="overwrite_message">Tên file bị lặp, nếu tiếp tục file cũ sẽ bị ghi đè.</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="localeWarning">Bạn chỉ nên dùng chữ cái từ A-Z, chữ số và kí tự để đặt mật khẩu.</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="explain_external_permission">Notecrypt cần cho phép quyền đọc và ghi lên bộ nhớ điện thoại để lưu trữ các Ghi chú. Nếu bạn lỡ từ chối bạn có thể cấp lại quyền bằng tại Cài đặt->Ứng dụng->NoteCrypt</string>
+</resources>
