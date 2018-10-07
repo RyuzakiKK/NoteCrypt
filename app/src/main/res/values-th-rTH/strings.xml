@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">เปลี่ยนรหัสผ่าน</string>
+    <string name="action_newNote">เพิ่มบันทึกใหม่</string>
+    <string name="action_about">เกี่ยวกับ</string>
+    <string name="hint_field_new_password">รหัสผ่าน</string>
+    <string name="hint_field_conf_password">ยืนยันรหัสผ่าน</string>
+    <string name="title_changeMasterPass">กรอกรหัสผ่านใหม่</string>
+    <string name="title_databaseLocation">เลือกฐานข้อมูล:</string>
+    <string name="desc_fileManager">เปิด File Manager</string>
+    <string name="butt_open">เปิด</string>
+    <string name="butt_create">สร้าง</string>
+    <string name="hint_field_password">รหัสผ่าน</string>
+    <string name="title_note">หัวข้อ:</string>
+    <string name="tags_note">แท็ก:</string>
+    <string name="note_note">ข้อความ:</string>
+    <string name="hint_field_title">หัวข้อ</string>
+    <string name="hint_field_tags">แท็ก1,  แท็ก2,  แท็ก3&#8230;</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_edit">แก้ไข</string>
+    <string name="action_delete">ลบ</string>
+    <string name="toast_success_newNote">เพิ่มสำเร็จแล้ว</string>
+    <string name="toast_fatalError">มีปัญหาร้ายแรง!</string>
+    <string name="toast_IOError">มีปัญหาเกี่ยวกับ I/O!</string>
+    <string name="title_password">กรอกรหัสผ่าน</string>
+    <string name="toast_emptyPassword">กรุณากรอกรหัสผ่าน</string>
+    <string name="toast_wrongPassword">รหัสผ่านไม่ถูกต้อง หรือ ฐานข้อมูลมีปัญหา</string>
+    <string name="toast_wrongPath">มีข้อผิดพลาดเกี่ยวกับฐานข้อมูล\nกรุณาตรวจสอบที่อยู่ให้ถูกต้อง</string>
+    <string name="toast_errorCreatingDB">มีปัญหาขณะกำลังสร้างฐานข้อมูล\nกรุณาตรวจสอบที่อยู่ให้ถูกต้อง</string>
+    <string name="toast_wrongNewPassword">รหัสผ่านไม่ตรงกัน</string>
+    <string name="toast_fieldsNotFilled"> กรุณากรอกฟิลด์ให้ครบถ้วน</string>
+    <string name="dialog_backNoSave">การแก้ไขของคุณยังไม่ถูกบันทึก\nคุณแน่ใจใช่ไหมที่ต้องการจะออก</string>
+    <string name="toast_success_newDB">สร้างฐานข้อมูลสำเร็จ</string>
+    <string name="toast_success_changePsw">เปลี่ยนรหัสผ่านเรียบร้อย</string>
+    <string name="action_filter">คัดกรองด้วยแท็ก</string>
+    <string name="dialog_deleteNote">คุณแน่ใจไหมที่ต้องการจะลบบันทึกนี้</string>
+    <string name="title_deleteNote">ลบบันทึก</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่ใช่</string>
+    <string name="action_sort">จัดเรียง</string>
+    <string name="toast_sort_alphabet">จัดเรียงตามตัวอักษร</string>
+    <string name="toast_sort_creation">จัดเรียงตามวันที่</string>
+    <string name="toast_success_deleteNote">ลบสำเร็จแล้ว</string>
+    <string name="dialog_backClose">ต้องการปิดฐานข้อมูลนี้ใช่ไหม</string>
+    <string name="title_backClose">ปิด</string>
+    <string name="toast_version">Notecrypt เวอร์ชั่น</string>
+    <string name="toast_createdBy">\nสร้างโดย Ludovico de Nittis</string>
+    <string name="toast_errorVersion">มีข้อผิดพลาดขณะกำลังค้นหาเวอร์ชั่น</string>
+    <string name="no_notes">ยังไม่มีบันทึก.\nกดปุ่ม + เพื่อเพิ่มบันทึกใหม่</string>
+    <string name="no_textNote">ไม่มีข้อความ</string>
+    <string name="toast_errorInvalidKey">เกิดปัญหา!  บางทีอาจเกิดจากการกรอกรหัสผ่านด้วยตัวอักษรที่ไม่อนุญาติ</string>
+    <string name="sure">แน่ใจ</string>
+    <string name="sure_rate">ให้คะแนนตอนนี้</string>
+    <string name="later">ไว้ที่หลัง</string>
+    <string name="rate">ให้คะแนน</string>
+    <string name="rate_message">ถ้าคุณสนุกกับการใช้ Note Crypt กรุณาให้คะแนนแอปเราผ่านทางร้านค้า</string>
+    <string name="upgrade_message">คุณสามารถช่วยซื้อกาแฟให้ผมได้โดยการซื้อ NoteCrypt เวอร์ชั่น Donate/Pro \nแล้วคุณจะได้รับฟีเจอร์เพิ่มเติม</string>
+    <string name="action_donate">บริจาค</string>
+    <string name="pref_drawer">อนิเมชั่นตัวคัดกรอง เมื่อเปิด</string>
+    <string name="pref_drawer_summ">เล่นอนิเมชั่นให้กับตัวคัดกรอง ทางด้านขวา</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="title_recentDB">ฐานข้อมูลในโฟลเดอร์หลัก และล่าสุด (คลิกเพื่อเปิด):</string>
+    <string name="deleteRecent_message">ต้องการจะลบฐานข้อมูลนี้ใช่ไหม\nหากลบแล้วจะไม่สามารถย้อนกลับได้</string>
+    <string name="pref_textSize">เปลี่ยนขนาดตัวอักษร</string>
+    <string-array name="pref_textSize_entries">
+        <item >เล็กมาก</item>
+        <item >เล็ก</item>
+        <item >ปกติ</item>
+        <item >ใหญ่</item>
+        <item >ใหญ่มาก</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">ค้นหา</string>
+    <string name="action_starred">สำคัญ</string>
+    <string name="action_remove">ลบ</string>
+    <string name="action_overwrite">เขียนทับ</string>
+    <string name="overwrite_message">มีไฟล์ชื่อนี้อยู่แล้ว คุณต้องการจะดำเนินการต่อหรือไม่ หากดำเนินต่อไฟล์จะถูกเขียนทับใหม่</string>
+    <string name="warning">เตือน</string>
+    <string name="localeWarning">แนะนำให้ใช้อักษรละติน (A-Z), ตัวเลข และสัญลักษณ์</string>
+    <string name="action_share">แบ่งบัน</string>
+    <string name="explain_external_permission">Notecrypt ต้องการสิทธิ์ในการอ่านเขียนไปยังความจำโทรศัพท์สำหรับเก็บบันทึกของคุณ คุณสามารถให้สิทธิ์ใหม่โดยการเข้าไปที่ Settings->Apps->NoteCrypt</string>
+</resources>
