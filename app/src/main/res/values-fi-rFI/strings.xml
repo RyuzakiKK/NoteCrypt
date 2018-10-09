@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Vaihda salasana</string>
+    <string name="action_newNote">Uusi muistiinpano</string>
+    <string name="action_about">Tietoja</string>
+    <string name="hint_field_new_password">Uusi salasana</string>
+    <string name="hint_field_conf_password">Vahvista salasana</string>
+    <string name="title_changeMasterPass">Uusi pääsalasana</string>
+    <string name="title_databaseLocation">Syötä tietokannan tiedostonimi:</string>
+    <string name="desc_fileManager">Avaa tiedostoselain</string>
+    <string name="butt_open">Avaa</string>
+    <string name="butt_create">Luo</string>
+    <string name="hint_field_password">Salasana</string>
+    <string name="title_note">Otsikko:</string>
+    <string name="tags_note">Tunnisteet:</string>
+    <string name="note_note">Muistiinpano:</string>
+    <string name="hint_field_title">Otsikko</string>
+    <string name="hint_field_tags">Tunniste1, Tunniste2, Tunniste3&#8230;</string>
+    <string name="action_save">Tallenna</string>
+    <string name="action_edit">Muokkaa</string>
+    <string name="action_delete">Poista</string>
+    <string name="toast_success_newNote">Luonti onnistui</string>
+    <string name="toast_fatalError">FATAALI VIRHE!</string>
+    <string name="toast_IOError">I/O virhe!</string>
+    <string name="title_password">Syötä salasana</string>
+    <string name="toast_emptyPassword">Tyhjä salasana ei ole sallittu</string>
+    <string name="toast_wrongPassword">Väärä salasana tai korruptoitunut tietokanta</string>
+    <string name="toast_wrongPath">Virhe lukiessa tietokantaa.\nTarkista syötetty tiedostopolku</string>
+    <string name="toast_errorCreatingDB">Virhe tietokannan luonnissa.\nTarkista syötetty tiedostopolku</string>
+    <string name="toast_wrongNewPassword">Salasana ei täsmää</string>
+    <string name="toast_fieldsNotFilled">Kenttiä ei ole täytetty oikein</string>
+    <string name="dialog_backNoSave">Tekemiäsi muutoksia ei tallenneta.\nHaluatko varmasti poistua?</string>
+    <string name="toast_success_newDB">Tietokanta luotu onnistuneesti</string>
+    <string name="toast_success_changePsw">Salasana vaihdettu onnistuneesti</string>
+    <string name="action_filter">Suodata tunnisteen mukaan</string>
+    <string name="dialog_deleteNote">Haluatko varmasti poistaa muistiinpanon?</string>
+    <string name="title_deleteNote">Poista muistiinpano</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="action_sort">Järjestä lista</string>
+    <string name="toast_sort_alphabet">Järjestys aakkosjärjestykseen</string>
+    <string name="toast_sort_creation">Järjestys luontiajankohdan mukaan</string>
+    <string name="toast_success_deleteNote">Poistettu onnistuneesti</string>
+    <string name="dialog_backClose">Haluatko varmasti sulkea tietokannan?</string>
+    <string name="title_backClose">Sulje</string>
+    <string name="toast_version">Notecrypt versio</string>
+    <string name="toast_createdBy">\nLuonut Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Virhe version haussa!</string>
+    <string name="no_notes">Täällä ei ole vielä muistiinpanoja.\nPaina + painiketta lisätäksesi muistiinpanon.</string>
+    <string name="no_textNote">Tyhjä muistiinpanon sisältö.</string>
+    <string name="toast_errorInvalidKey">Virhe! Salasana sisältää mahdollisesti epäkelpoja merkkejä</string>
+    <string name="sure">Varma</string>
+    <string name="sure_rate">Arvioi nyt</string>
+    <string name="later">Ehkä myöhemmin</string>
+    <string name="rate">Arvostele</string>
+    <string name="rate_message">Mikäli pidät Note Cryptistä, arvostaisin suuresti, jos käyt arvioimassa sovelluksen kaupassa. Kiitos todella paljon.</string>
+    <string name="upgrade_message">Ostamalla NoteCrypt Donate/Pro version, tarjoat minulle kahvin.\nSaat myös käyttöösi uusia ominaisuuksia.</string>
+    <string name="action_donate">Lahjoita</string>
+    <string name="pref_drawer">Animaatiosuodatin sovelluksen käynnistyessä</string>
+    <string name="pref_drawer_summ">Näytä suotimien animaatio oikealla</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="title_recentDB">Tietokanta oletushakemistossa (klikkaa avataksesi):</string>
+    <string name="deleteRecent_message">Poista tietokanta?\nTätä toimintoa ei voi peruuttaa.</string>
+    <string name="pref_textSize">Muuta muistiinpanojen fonttikokoa</string>
+    <string-array name="pref_textSize_entries">
+        <item >Hyvin pieni</item>
+        <item >Pieni</item>
+        <item >Tavallinen</item>
+        <item >Suuri</item>
+        <item >Hyvin suuri</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Etsi</string>
+    <string name="action_starred">Tärkeä</string>
+    <string name="action_remove">Poista</string>
+    <string name="action_overwrite">Ylikirjoita</string>
+    <string name="overwrite_message">Saman niminen tiedosto on jo olemassa. Jatkamalla tiedosto ylikirjoitetaan.</string>
+    <string name="warning">Varoitus</string>
+    <string name="localeWarning">On erittäin suositeltavaa käyttää salasanaa, joka sisältää vain latinalaisia aakkosia (A-Z), numeroita ja symboleja.</string>
+    <string name="action_share">Jaa</string>
+    <string name="explain_external_permission">Notecrypt tarvitsee oikeudet lukea ja kirjoittaa puhelimen muistiin muistiinpanojesi tallentamista varten. Mikäli eväsit oikeuden pysyvästi voit myöntää oikeuden paikasta Asetukset->Sovellukset->NoteCrypt</string>
+</resources>
