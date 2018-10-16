@@ -62,7 +62,7 @@
     <string name="pref_drawer_summ">Προβολή του animation του συρατριού φίλτρων στα δεξιά</string>
     <string name="action_settings">Ρυθμίσεις</string>
     <string name="title_recentDB">Βάση δεδομένων στον προεπιλεγμένο φάκελο και ενημερωμένη(πατήστε για άνοιγμα)):</string>
-    <string name="deleteRecent_message">Διαγραφή της βάσης?\nΑυτή η ενέργεια είναι μη αναστρέψιμη.</string>
+    <string name="deleteRecent_message">Διαγραφή της βάσης?\nΜη αναστρέψιμη ενέργεια.</string>
     <string name="pref_textSize">Αλλαγή μεγέθους γραμματοσειράς για τις σημειώσης</string>
     <string-array name="pref_textSize_entries">
         <item >Πολύ μικρό</item>
