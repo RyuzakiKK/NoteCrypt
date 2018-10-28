@@ -27,8 +27,8 @@
     <string name="title_password">Εισάγετε Κωδικό Πρόσβασης</string>
     <string name="toast_emptyPassword">Δεν επιτρέπεται Κενός Κωδικός Πρόσβασης</string>
     <string name="toast_wrongPassword">Λανθασμένος Κωδικός Πρόσβασης ή αλλοιωμένη βάση δεδομένων</string>
-    <string name="toast_wrongPath">Σφάλμα ανάγνωσης της βάσης δεδομένων.\nΕλέξτε την ορθότητα της διαδρομής αρχείου</string>
-    <string name="toast_errorCreatingDB">Σφάλμα δημιουργίας της βάσης δεδομένων.\nΕλέξτε την ορθότητα της διαδρομής αρχείου</string>
+    <string name="toast_wrongPath">Σφάλμα ανάγνωσης της βάσης δεδομένων.\nΕλέγξτε την ορθότητα της διαδρομής αρχείου</string>
+    <string name="toast_errorCreatingDB">Σφάλμα δημιουργίας της βάσης δεδομένων.\nΕλέγξτε την ορθότητα της διαδρομής αρχείου</string>
     <string name="toast_wrongNewPassword">Οι Κωδικοί Πρόσβασης δεν ταιριάζουν</string>
     <string name="toast_fieldsNotFilled">Τα πεδία δεν συμπληρώθηκαν σωστά</string>
     <string name="dialog_backNoSave">Η επεξεργασία σας δεν θα αποθηκευτεί.\nΕίστε σίγουροι ότι θέλετε να αποχωρήσετε;</string>
@@ -56,14 +56,14 @@
     <string name="later">Ίσως αργότερα</string>
     <string name="rate">Βαθμολόγηση</string>
     <string name="rate_message">Αν σας αρέσει το Note Crypt, Θα εκτιμούσα πολύ την Βαθμολόγηση σας στο store. Ευχαριστώ πολύ.</string>
-    <string name="upgrade_message">Παρακαλώ σκεφτήτε να μου προσφέρετε έναν καφέ αγοράζοντας την έκδοση NoteCrypt Donate/Pro.\nΜε αυτήν θα αποκτήσετε επιπλέον χαρακτηριστικά.</string>
+    <string name="upgrade_message">Παρακαλώ σκεφτείτε να μου προσφέρετε έναν καφέ αγοράζοντας την έκδοση NoteCrypt Donate/Pro.\nΜε αυτήν θα αποκτήσετε επιπλέον χαρακτηριστικά.</string>
     <string name="action_donate">Δωρεά</string>
     <string name="pref_drawer">Φίλτρο Animation στην αρχή</string>
     <string name="pref_drawer_summ">Προβολή του animation του συρατριού φίλτρων στα δεξιά</string>
     <string name="action_settings">Ρυθμίσεις</string>
     <string name="title_recentDB">Βάση δεδομένων στον προεπιλεγμένο φάκελο και ενημερωμένη(πατήστε για άνοιγμα)):</string>
     <string name="deleteRecent_message">Διαγραφή της βάσης?\nΜη αναστρέψιμη ενέργεια.</string>
-    <string name="pref_textSize">Αλλαγή μεγέθους γραμματοσειράς για τις σημειώσης</string>
+    <string name="pref_textSize">Αλλαγή μεγέθους γραμματοσειράς για τις σημειώσεις</string>
     <string-array name="pref_textSize_entries">
         <item >Πολύ μικρό</item>
         <item >Μικρό</item>
