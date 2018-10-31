@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Note Crypt Pro</string>
+    <string name="action_changePassword">Wachtwoord Veranderen</string>
+    <string name="action_newNote">Nieuwe Notitie Toevoegen</string>
+    <string name="action_about">Over</string>
+    <string name="hint_field_new_password">Nieuw Wachtwoord</string>
+    <string name="hint_field_conf_password">Wachtwoord Bevestigen</string>
+    <string name="title_changeMasterPass">Nieuw Master Wachtwoord Invoeren</string>
+    <string name="title_databaseLocation">Database bestandsnaam invoeren:</string>
+    <string name="desc_fileManager">Bestandsmanager Openen</string>
+    <string name="butt_open">Openen</string>
+    <string name="butt_create">Aanmaken</string>
+    <string name="hint_field_password">Wachtwoord</string>
+    <string name="title_note">Titel:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="note_note">Notitie:</string>
+    <string name="hint_field_title">Titel</string>
+    <string name="hint_field_tags">Tag1, Tag2, Tag3&#8230;</string>
+    <string name="action_save">Opslaan</string>
+    <string name="action_edit">Aanpassen</string>
+    <string name="action_delete">Verwijderen</string>
+    <string name="toast_success_newNote">Succesvol aangemaakt</string>
+    <string name="toast_fatalError">FATALE ERROR!</string>
+    <string name="toast_IOError">I/O Error!</string>
+    <string name="title_password">Wachtwoord Invoeren</string>
+    <string name="toast_emptyPassword">Leeg wachtwoord niet toegestaan</string>
+    <string name="toast_wrongPassword">Verkeerd wachtwoord of corrupte database</string>
+    <string name="toast_wrongPath">Fout bij het lezen van de database.\nCheck de correctheid van het bestand</string>
+    <string name="toast_errorCreatingDB">Fout bij het aanmaken van de database.\nCheck de correctheid van het bestand</string>
+    <string name="toast_wrongNewPassword">Wachtwoorden zijn niet hetzelfde</string>
+    <string name="toast_fieldsNotFilled">Velden niet correct ingevuld</string>
+    <string name="dialog_backNoSave">Je aanpassingen zijn nog niet opgeslagen.\nWeet je zeker dat je wil stoppen?</string>
+    <string name="toast_success_newDB">Database succesvol aangemaakt</string>
+    <string name="toast_success_changePsw">Wachtwoord succesvol aangepast</string>
+    <string name="action_filter">Filter op Tag</string>
+    <string name="dialog_deleteNote">Weet je zeker dat je deze notitie wil verwijderen?</string>
+    <string name="title_deleteNote">Notitie verwijderen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="action_sort">Lijst Sorteren</string>
+    <string name="toast_sort_alphabet">Alfabetisch Sorteren</string>
+    <string name="toast_sort_creation">Creatie Sorteren</string>
+    <string name="toast_success_deleteNote">Succesvol verwijderd</string>
+    <string name="dialog_backClose">Wil je de database sluiten?</string>
+    <string name="title_backClose">Sluiten</string>
+    <string name="toast_version">Notecrypt versie</string>
+    <string name="toast_createdBy">\nGemaakt door Ludovico de Nittis</string>
+    <string name="toast_errorVersion">Versie niet gevonden!</string>
+    <string name="no_notes">Geen notities.\nDruk op de + knop om een notitie te maken.</string>
+    <string name="no_textNote">Lege notitie tekst.</string>
+    <string name="toast_errorInvalidKey">Fout! Het ingevoerde wachtwoord heeft waarschijnlijk niet toegestane karakters</string>
+    <string name="sure">Oke</string>
+    <string name="sure_rate">Nu raten</string>
+    <string name="later">Misschien later</string>
+    <string name="rate">Rate</string>
+    <string name="rate_message">Als je Note Crypt leuk vind, zou ik het erg waarderen als je de app rate op de App Store. Dankjewel.</string>
+    <string name="upgrade_message">Overweeg alstublieft mij een koffie te schenken door Note Crypt Pro te kopen.\nJe ontvangt dan ook extra features.</string>
+    <string name="action_donate">Doneren</string>
+    <string name="pref_drawer">Animatie filteren bij start</string>
+    <string name="pref_drawer_summ">Laat de animatie op het filter scherm rechts zien</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_recentDB">Database in default folder en recent (klik om te openen):</string>
+    <string name="deleteRecent_message">Database verwijderen?\nDeze actie kan niet ongedaan worden gemaakt.</string>
+    <string name="pref_textSize">Tekstgrootte voor notities veranderen</string>
+    <string-array name="pref_textSize_entries">
+        <item >Erg Klein</item>
+        <item >Klein</item>
+        <item >Normaal</item>
+        <item >Groot</item>
+        <item >Erg Groot</item>
+    </string-array>
+    <string-array name="pref_textSize_values">
+        <item >15</item>
+        <item >18</item>
+        <item >20</item>
+        <item >22</item>
+        <item >25</item>
+    </string-array>
+    <string name="pref_textSize_default">20</string>
+    <string name="action_search">Zoeken</string>
+    <string name="action_starred">Belangrijk</string>
+    <string name="action_remove">Verwijderen</string>
+    <string name="action_overwrite">Overschrijven</string>
+    <string name="overwrite_message">Een bestand met deze naam bestaat al, als je door gaat wordt deze overschreven.</string>
+    <string name="warning">Waarschuwing</string>
+    <string name="localeWarning">Het is sterk aangeraden dat je alleen letters, cijfers of tekens gebruikt.</string>
+    <string name="action_share">Delen</string>
+    <string name="explain_external_permission">Notecrypt heeft toegang nodig om notities op je telefoon op te kunnen slaan. Als je dit permanent hebt afgewezen kun je dit aanpassen bij: System Settings->Apps->NoteCrypt</string>
+</resources>
