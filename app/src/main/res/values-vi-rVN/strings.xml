@@ -82,7 +82,7 @@
     <string name="action_search">Tìm kiếm</string>
     <string name="action_starred">Quan trọng</string>
     <string name="action_remove">Xóa</string>
-    <string name="action_overwrite"Ghi đè</string>
+    <string name="action_overwrite">Ghi đè</string>
     <string name="overwrite_message">Tên file bị lặp, nếu tiếp tục file cũ sẽ bị ghi đè.</string>
     <string name="warning">Cảnh báo</string>
     <string name="localeWarning">Bạn chỉ nên dùng chữ cái từ A-Z, chữ số và kí tự để đặt mật khẩu.</string>
