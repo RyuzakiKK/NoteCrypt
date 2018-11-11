@@ -1,3 +1,13 @@
+1.44
+* Add support to wider aspect ratio
+* Add Privacy Policy and FAQs (thanks to HarryHeights #41 #43)
+* NoteCrypt is now also translated in: Arabic, Czech, Danish, Finnish, French, German, Greek, Hindi, Hungarian, Indonesian, Kazakh, Lithuanian, Polish, Portuguese, Romanian, Russian, Spanish (Mexico), Spanish, Thai, Ukrainian, Vietnamese.
+Thanks to all the amazing contributors!
+
+1.43
+* Add Brazilian Portuguese translation (thanks to hanelore #8)
+* Prevent leaking passwords to accessibility services (thanks to mohammadnaseri #9 )
+
 1.42
 * Fixed issue #1 that prevented old Android versions to create a new DB
 * Added the Japanese translation (thanks to naofum)
