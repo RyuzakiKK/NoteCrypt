@@ -26,7 +26,7 @@
     <string name="toast_IOError">Erro de leitura ou escrita!</string>
     <string name="title_password">Inserir Password</string>
     <string name="toast_emptyPassword">Não é permitido o uso de passwords vazias</string>
-    <string name="toast_wrongPassword">Password errada ou  base de dados Corrumpida</string>
+    <string name="toast_wrongPassword">Password errada ou  base de dados corrompida</string>
     <string name="toast_wrongPath">Erro na leitura da Base de Dados.\nVerifique se o caminho absoluto para o ficheiro é válido</string>
     <string name="toast_errorCreatingDB">Erro durante a criação da base de dados.\nVerifique se o caminho para o ficheiro é válido</string>
     <string name="toast_wrongNewPassword">As Passwords não são iguais</string>
